@@ -64,6 +64,8 @@
   @media (max-width: 768px) {
     // flex: 0 0 40%;
     font-size: 1em;
+    display: flex;
+    align-content: center;
     // display: grid;
   }
   //   justify-content: space-around;
@@ -74,6 +76,13 @@
   font-size: 1rem;
   //   display: flex;
   //   align-content: flex-end;
+  @media (max-width: 768px) {
+    // flex: 0 0 40%;
+    font-size: 1em;
+    display: flex;
+    align-content: center;
+    // display: grid;
+  }
 }
 
 .skill_block {
