@@ -1,0 +1,23 @@
+.main_box {
+  flex: 0 0 47.5%;
+
+  .my_intro_block {
+    margin: 4rem 0;
+  }
+
+  .content_block {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+
+    &_title {
+      flex: 0 0 20%;
+      text-align: center;
+    }
+
+    &_content {
+      flex: 0 0 78%;
+    }
+  }
+}

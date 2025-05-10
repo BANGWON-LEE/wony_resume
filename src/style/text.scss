@@ -1,0 +1,70 @@
+.text_dohyeon_small_title {
+  font-family: 'Do Hyeon', sans-serif;
+  font-weight: normal;
+  text-align: left;
+  &_inner {
+    font-size: 1.4em;
+    line-height: 1em;
+  }
+  //   font-size: 20em;
+}
+.text_gothic_a1_big_title {
+  font-family: 'Gothic A1', sans-serif;
+  text-align: left;
+  //   font-size: 0.4em;
+  &_inner {
+    font-weight: 900;
+    line-height: 0.4em;
+  }
+  //   font-weight: 900;
+  //   font-size: 20em;
+}
+.text_black_hansans_content {
+  font-family: 'Black Han Sans, sans-serif';
+  font-weight: normal;
+  text-align: left;
+  &_inner {
+    font-size: 1.2em;
+    line-height: 1.3em;
+  }
+  //   font-size: 10em;
+}
+
+.text_box {
+  display: grid;
+  &_ul {
+    padding-left: 0.5rem;
+  }
+}
+
+.project_header {
+  display: flex;
+  flex: 0 0 30%;
+
+  //   justify-content: space-around;
+}
+
+.project_date {
+  margin-left: 1.4rem;
+  font-size: 1rem;
+  //   display: flex;
+  //   align-content: flex-end;
+}
+
+.skill_block {
+  display: grid;
+}
+
+.skill_text {
+  color: grey;
+  font-weight: 700;
+}
+
+.another_skill_text {
+  color: tomato;
+}
+
+.small_size {
+  font-size: 0.74em;
+  text-align: left;
+}
