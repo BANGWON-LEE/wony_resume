@@ -28,10 +28,17 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  word-break: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 @media (max-width: 768px) {
   body {
     margin: 0 auto;
+    display: grid;
+    word-break: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
   }
 }
 

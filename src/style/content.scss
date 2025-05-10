@@ -1,5 +1,9 @@
 .main_box {
   flex: 0 0 47.5%;
+  @media (max-width: 768px) {
+    // display: grid;
+    flex-wrap: nowrap;
+  }
 
   .my_intro_block {
     margin: 4rem 0;
@@ -10,14 +14,32 @@
     width: auto;
     height: auto;
     justify-content: space-between;
+    @media (max-width: 768px) {
+      // display: grid;
+      flex-wrap: nowrap;
+      word-break: break-word;
+      white-space: normal;
+    }
 
     &_title {
       flex: 0 0 20%;
       text-align: center;
+      @media (max-width: 768px) {
+        // display: grid;
+        flex-wrap: nowrap;
+        word-break: break-word;
+        white-space: normal;
+      }
     }
 
     &_content {
       flex: 0 0 78%;
+      @media (max-width: 768px) {
+        // display: grid;
+        flex-wrap: nowrap;
+        word-break: break-word;
+        white-space: normal;
+      }
     }
   }
 }

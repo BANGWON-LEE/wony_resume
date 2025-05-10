@@ -5,6 +5,11 @@
   &_inner {
     font-size: 1.4em;
     line-height: 1em;
+    @media (max-width: 768px) {
+      font-size: 1em;
+      width: 95%;
+      display: grid;
+    }
   }
   //   font-size: 20em;
 }
@@ -12,20 +17,35 @@
   font-family: 'Gothic A1', sans-serif;
   text-align: left;
   //   font-size: 0.4em;
+  @media (max-width: 768px) {
+    font-size: 1em;
+    width: 100%;
+  }
   &_inner {
     font-weight: 900;
-    line-height: 0.4em;
+    line-height: 0.6em;
+    @media (max-width: 768px) {
+      font-size: 1em;
+      display: grid;
+    }
   }
-  //   font-weight: 900;
-  //   font-size: 20em;
 }
 .text_black_hansans_content {
   font-family: 'Black Han Sans, sans-serif';
   font-weight: normal;
   text-align: left;
+  @media (max-width: 768px) {
+    font-size: 0.76em;
+    width: 100%;
+  }
+
   &_inner {
     font-size: 1.2em;
     line-height: 1.3em;
+    @media (max-width: 768px) {
+      font-size: 1em;
+      width: 100%;
+    }
   }
   //   font-size: 10em;
 }
@@ -41,6 +61,11 @@
   display: flex;
   flex: 0 0 30%;
 
+  @media (max-width: 768px) {
+    // flex: 0 0 40%;
+    font-size: 1em;
+    // display: grid;
+  }
   //   justify-content: space-around;
 }
 
