@@ -95,6 +95,7 @@ a {
   min-width: 320px;
   max-width: 1920px;
   margin: 0 auto;
+  line-height: 1rem;
 
   @media (max-width: 768px) {
     width: 100%;
@@ -102,6 +103,19 @@ a {
     word-break: break-word;
     white-space: normal;
     overflow-wrap: break-word;
+    line-height: 1rem;
     // padding: 0 1rem;
+  }
+}
+
+.pdf_block {
+  position: absolute;
+  right: 1rem;
+  top: 2rem;
+  &_btn {
+    background-color: #6666;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 900;
   }
 }
