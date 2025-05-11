@@ -1,4 +1,5 @@
 import './App.css'
+import { Analytics } from '@vercel/analytics/react'
 import LeftContent from './components/main/LeftContent'
 import './style/text.scss'
 import './style/main.scss'
@@ -11,6 +12,7 @@ import TextBlackHanSansContent from './components/text/TextBlackHanSansContent'
 function App() {
   return (
     <div className="total_block">
+      <Analytics />
       <header>
         <TextGothicA1BigTitle>
           <h1 className="text_gothic_a1_big_title_inner">안녕하세요</h1>
