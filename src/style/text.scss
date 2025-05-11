@@ -39,9 +39,11 @@
   font-family: 'Black Han Sans, sans-serif';
   font-weight: normal;
   text-align: left;
+  line-height: 1.35rem;
   // font-size: 1rem;
   @media (max-width: 768px) {
     font-size: 0.76em;
+    line-height: 1rem;
     width: 100%;
   }
 
