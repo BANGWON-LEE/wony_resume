@@ -8,49 +8,49 @@ import RightContent from './components/main/RightContent'
 import { Fragment } from 'react'
 import TextGothicA1BigTitle from './components/text/TextGothicA1BigTitle'
 import TextBlackHanSansContent from './components/text/TextBlackHanSansContent'
-import generatePDF, { Resolution, Margin } from 'react-to-pdf'
+// import generatePDF, { Resolution, Margin } from 'react-to-pdf'
 
 function App() {
-  const options = {
-    method: 'save',
-    resolution: 2, // 낮추면 크기 줄어듦 (실험 필요)
-    page: {
-      format: [130, 75], // A4 가로 (mm)
-      orientation: 'landscape',
-      margin: 2,
-    },
-    canvas: {
-      mimeType: 'image/png',
-      qualityRatio: 1,
-    },
-    overrides: {
-      pdf: {
-        compress: true,
-      },
-      canvas: {
-        useCORS: true,
-        scale: 1,
-      },
-    },
-    x: 0,
-    y: 0,
-  }
+  // const options = {
+  //   method: 'save',
+  //   resolution: 2, // 낮추면 크기 줄어듦 (실험 필요)
+  //   page: {
+  //     format: [130, 75], // A4 가로 (mm)
+  //     orientation: 'landscape',
+  //     margin: 2,
+  //   },
+  //   canvas: {
+  //     mimeType: 'image/png',
+  //     qualityRatio: 1,
+  //   },
+  //   overrides: {
+  //     pdf: {
+  //       compress: true,
+  //     },
+  //     canvas: {
+  //       useCORS: true,
+  //       scale: 1,
+  //     },
+  //   },
+  //   x: 0,
+  //   y: 0,
+  // }
 
-  const getTargetElement = () => document.getElementById('total_box')
-  function downloadPdf() {
-    generatePDF(getTargetElement, {
-      filename: '프론트엔드_개발자_이방원.pdf',
-      ...options,
-    })
-  }
+  // const getTargetElement = () => document.getElementById('total_box')
+  // function downloadPdf() {
+  //   generatePDF(getTargetElement, {
+  //     filename: '프론트엔드_개발자_이방원.pdf',
+  //     ...options,
+  //   })
+  // }
 
   return (
     <>
-      <div className="pdf_block">
+      {/* <div className="pdf_block">
         <button className="pdf_block_btn" onClick={() => downloadPdf()}>
           PDF로 저장
         </button>
-      </div>
+      </div> */}
       <div className="total_block" id="total_box">
         <header>
           <Analytics />
