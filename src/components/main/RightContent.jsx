@@ -25,7 +25,13 @@ export default function RightContent() {
                 target="_blank"
               >
                 github
-                <span className="click_dir">click!</span>
+              </a>
+              <a
+                href="https://github.com/BANGWON-LEE/wony-chart-components"
+                target="_blank"
+                className="click_dir"
+              >
+                click!
               </a>
               {/* <span>qkddnjs31@gmail.com</span> */}
             </span>
@@ -66,21 +72,47 @@ export default function RightContent() {
         <div className="content_block">
           <div className="content_block_title">
             <TextDoHyeonSmallTitle>
-              <h2 className="text_dohyeon_small_title_inner">캘린더 개발</h2>
+              <h2 className="text_dohyeon_small_title_inner">
+                myMap myPlan <br /> (개발 중)
+              </h2>
             </TextDoHyeonSmallTitle>
             <p className="skill_text small_size">
-              typescript, react, context api
+              typescript, next, recoil, naver map api, T map api
             </p>
-            <span className="my_info_box_inner">
+            <p className="my_info_box_inner">
               <a
                 className="click_text"
-                href="https://github.com/BANGWON-LEE/react-calendar-w-design"
+                // href="https://github.com/BANGWON-LEE/react-calendar-w-design"
+                href="https://github.com/BANGWON-LEE/my-map-my-plan"
                 target="_blank"
               >
                 github
-                <span className="click_dir">click!</span>
               </a>
-            </span>
+              <a
+                href="https://github.com/BANGWON-LEE/my-map-my-plan"
+                target="_blank"
+                className="click_dir"
+              >
+                click!
+              </a>
+            </p>
+            <p className="my_info_box_inner">
+              <a
+                className="click_text"
+                // href="https://github.com/BANGWON-LEE/react-calendar-w-design"
+                href="https://my-map-my-plan.vercel.app/"
+                target="_blank"
+              >
+                link
+              </a>
+              <a
+                href="https://my-map-my-plan.vercel.app/"
+                target="_blank"
+                className="click_dir"
+              >
+                click!
+              </a>
+            </p>
           </div>
           <div className="content_block_content">
             <div className="text_box">
@@ -90,18 +122,18 @@ export default function RightContent() {
                     <li className="content_li">
                       <span>•</span>
                       <span>
-                        type과 시간 선택 유무에 대한 props만 전달하면, 단일 날짜
-                        선택 또는 날짜 범위 선택의 형태로 캘린더를 사용할 수
-                        있도록 구현
+                        naver map api와 T map api를 사용하여, 여행 계획 및 일정
+                        계획 등 수립을 위한 서비스 개발 중
                       </span>
                     </li>
                     <br />
                     <li className="content_li">
                       <span>•</span>
                       <span>
-                        라이브러리(또는 프로젝트)의 경량화를 위해, 전역 상태
-                        관리는 별도의 상태 관리 라이브러리 대신
-                        <br /> React의 Context API를 활용
+                        개발 초기 경로 이동 관련해서 naver map api를
+                        이용하였으나, 응답에 대한 속도가 느림으로 인하여, 경롸
+                        관련 데이터는 t map api를 활용 경로 관련 데이터 응답
+                        속도가 <strong>약 10초 → 약 1초</strong>로 개선
                       </span>
                     </li>
                   </ul>
