@@ -131,7 +131,7 @@ export default function RightContent() {
                       <span>•</span>
                       <span>
                         개발 초기 경로 이동 관련해서 naver map api를
-                        이용하였으나, 응답에 대한 속도가 느림으로 인하여, 경롸
+                        이용하였으나, 응답에 대한 속도가 느림으로 인하여, 경로
                         관련 데이터는 t map api를 활용 경로 관련 데이터 응답
                         속도가 <strong>약 10초 → 약 1초</strong>로 개선
                       </span>
