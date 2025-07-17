@@ -130,9 +130,8 @@ export default function RightContent() {
                     <li className="content_li">
                       <span>•</span>
                       <span>
-                        개발 초기 경로 이동 관련해서 naver map api를
-                        이용하였으나, 응답에 대한 속도가 느림으로 인하여, 경로
-                        관련 데이터를 t map api 활용, 데이터 응답 속도를{' '}
+                        개발 초기, 경로 데이터를 naver map api 로 처리, 응답에
+                        속도가 느려, t map api 전환, 데이터 응답 속도를
                         <strong>약 10초 → 약 1초</strong>로 개선
                       </span>
                     </li>
