@@ -65,13 +65,17 @@ function App() {
           <div className="header_inner_left">
             <TextBlackHanSansContent>
               <span className="text_black_hansans_content_inner">
-                차트 라이브러리를 활용해 3,000개 이상의 실시간 데이터를
-                시각화하고, 성능을 개선한 경험이 있습니다. <br /> 또한, 지속적인
-                개선을 위해 고민하고 기록하는 습관을 실천하고 있습니다.
+                위치 기반 데이터 시각화 프로젝트(MyMap MyPlan)를 통해 Naver Map,
+                T Map API를 활용한 경험이 있으며,
+                <br />
+                <strong>QA 업무를 병행하며, </strong> 다양한 부서(현장, 연구
+                등)와의 소통을 통해 이슈를 신속히 파악하고 해결하는 역할을
+                수행하였습니다.
+                <br />
               </span>
               <span className="text_black_hansans_content_inner">
-                원활한 협업을 위해 짧은 내용은 구두로, <br /> 긴 내용은 텍스트로
-                정리해 동료들이 내용을 정확히 이해하고 빠르게 대응할 수 있도록
+                원활한 협업을 위해 짧은 내용은 구두로, 긴 내용은 텍스트로 정리해
+                동료들이 내용을 정확히 이해하고 빠르게 대응할 수 있도록
                 지원합니다.
               </span>
             </TextBlackHanSansContent>

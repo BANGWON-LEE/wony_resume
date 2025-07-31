@@ -94,6 +94,33 @@ export default function LeftContent() {
                   <TextBlackHanSansContent>
                     <p className="project_date">2023.8 ~ 2023.11</p>
                   </TextBlackHanSansContent>
+                  <div
+                    className="my_info_box_inner"
+                    style={{
+                      display: 'flex',
+                      width: ' 69px',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      marginBottom: '4px',
+                    }}
+                  >
+                    <a
+                      className="click_text"
+                      // href="https://github.com/BANGWON-LEE/react-calendar-w-design"
+                      href="https://purplay.co.kr/"
+                      target="_blank"
+                    >
+                      link
+                    </a>
+
+                    <a
+                      href="https://purplay.co.kr/"
+                      target="_blank"
+                      className="click_dir"
+                    >
+                      click!
+                    </a>
+                  </div>
                 </div>
               </TextDoHyeonSmallTitle>
               <TextBlackHanSansContent>
@@ -148,8 +175,7 @@ export default function LeftContent() {
                         토토 판매점 위치 정보를 지도에 효과적으로 시각화하기
                         위해 Kakao Map API를 활용하여, API로 전달받은 토토
                         판매점 좌표만 필터링하여 마커로 시각화. <br /> 지도는
-                        필요 시에만 동적 로딩되도록 설정하고, 이벤트 리스너를
-                        통해 로딩 흐름 최적화.
+                        필요 시에만 동적 로딩되도록 설정
                       </span>
                     </li>
                     <br />
