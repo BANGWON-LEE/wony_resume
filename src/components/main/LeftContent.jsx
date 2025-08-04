@@ -21,7 +21,10 @@ export default function LeftContent() {
                   Frontend Developer
                 </span>
                 <span className="text_black_hansans_content_inner">
-                  2022.02 ~ 2024.11
+                  2022.02 ~ 2024.11 (정규직)
+                </span>
+                <span className="text_black_hansans_content_inner">
+                  2024.12 ~ 2025.05 (계약직)
                 </span>
               </div>
             </TextBlackHanSansContent>
