@@ -17,14 +17,16 @@ export default function LeftContent() {
             </TextDoHyeonSmallTitle>
             <TextBlackHanSansContent>
               <div className="text_box">
-                <span className="text_black_hansans_content_inner">
+                <p className="text_black_hansans_content_inner">
                   Frontend Developer
+                </p>
+                <span className="text_black_hansans_content_inner">
+                  2022.02 ~ 2024.11 <br />
+                  (정규직)
                 </span>
                 <span className="text_black_hansans_content_inner">
-                  2022.02 ~ 2024.11 (정규직)
-                </span>
-                <span className="text_black_hansans_content_inner">
-                  2024.12 ~ 2025.05 (계약직)
+                  2024.12 ~ 2025.05 <br />
+                  (계약직)
                 </span>
               </div>
             </TextBlackHanSansContent>

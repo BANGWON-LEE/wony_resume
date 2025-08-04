@@ -257,10 +257,13 @@ export default function RightContent() {
               <TextBlackHanSansContent>
                 <div className="skill_block">
                   <p className="skill_text">
-                    javascript, typescript, react, recoil, redux
+                    javascript, typescript, react, next, recoil, redux
                   </p>
                   <p className="skill_text another_skill_text">
                     html, css, scss, tailwindcss
+                  </p>
+                  <p className="skill_text">
+                    firebase-auth, firebase-firestore
                   </p>
                 </div>
               </TextBlackHanSansContent>
