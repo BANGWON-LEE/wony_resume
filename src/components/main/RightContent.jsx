@@ -131,7 +131,7 @@ export default function RightContent() {
                       <span>•</span>
                       <span>
                         개발 초기, 경로 데이터를 naver map api 로 처리, 응답에
-                        속도가 느려, t map api 전환, 데이터 응답 속도를
+                        속도가 느려, t map api 전환, 데이터 응답 속도를{' '}
                         <strong>약 10초 → 약 1초</strong>로 개선
                       </span>
                     </li>
