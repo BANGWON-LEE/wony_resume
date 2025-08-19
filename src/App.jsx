@@ -65,12 +65,13 @@ function App() {
           <div className="header_inner_left">
             <TextBlackHanSansContent>
               <span className="text_black_hansans_content_inner">
-                위치 기반 데이터 시각화 프로젝트(MyMap MyPlan)를 통해 Naver Map,
-                T Map API를 활용한 경험이 있으며,
-                <br />
-                <strong>QA 업무를 병행하며, </strong> 다양한 부서(현장, 연구
-                등)와의 소통을 통해 이슈를 신속히 파악하고 해결하는 역할을
-                수행하였습니다.
+                Next.js 기반의 스마트팩토리 프로젝트에 참여하여 효율적인 데이터
+                시각화 및 사용자 경험 개선에 기여했습니다.
+                <br /> 또한 SCSS와 TailwindCSS를 활용하여 반응형 UI를 구현한
+                경험이 있으며, <br />
+                특히 Purplay 서비스 리뉴얼 프로젝트에서는 SCSS 기반의 UI 개선
+                작업을 담당하여 서비스 전반의 사용자 접근성과 디자인 일관성을
+                강화했습니다.
                 <br />
               </span>
               <span className="text_black_hansans_content_inner">

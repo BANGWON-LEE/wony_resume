@@ -260,7 +260,7 @@ export default function RightContent() {
                     <strong>naver map api, kakao map api, T map api</strong>
                   </p>
                   <p className="skill_text">
-                    javascript, typescript, react, recoil, redux
+                    javascript, typescript, next, react, recoil, redux
                   </p>
                   <p className="skill_text another_skill_text">
                     html, css, scss, tailwindcss
