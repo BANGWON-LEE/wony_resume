@@ -130,9 +130,18 @@ export default function RightContent() {
                     <li className="content_li">
                       <span>•</span>
                       <span>
-                        개발 초기, 경로 데이터를 naver map api 로 처리, 응답에
-                        속도가 느려, t map api 전환, 데이터 응답 속도를{' '}
+                        Naver Map API를 Render(CDN) 기반 proxy 서버로
+                        배포했으나, sleep 상태로 인한 응답 지연 문제가 발생하여
+                        T Map API로 전환함으로써 응답 속도를
                         <strong>약 10초 → 약 1초</strong>로 개선
+                      </span>
+                    </li>
+                    <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        지도 외 페이지 중 데이터 조회 페이지는 Server
+                        Components를 적용해 상태 관리·수화 비용 제거, 코드
+                        단순화
                       </span>
                     </li>
                   </ul>
