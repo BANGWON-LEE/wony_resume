@@ -136,6 +136,7 @@ export default function RightContent() {
                         <strong>약 10초 → 약 1초</strong>로 개선
                       </span>
                     </li>
+                    <br />
                     <li className="content_li">
                       <span>•</span>
                       <span>
