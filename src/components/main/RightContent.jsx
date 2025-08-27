@@ -73,6 +73,63 @@ export default function RightContent() {
           <div className="content_block_title">
             <TextDoHyeonSmallTitle>
               <h2 className="text_dohyeon_small_title_inner">
+                실시간 통신 데이터
+                <br /> 시각화 프로젝트 <br />
+                (연구 중)
+              </h2>
+            </TextDoHyeonSmallTitle>
+            <p className="skill_text small_size">
+              javascript, react, chartJS, upbit api
+            </p>
+            <span className="my_info_box_inner">
+              <a
+                className="click_text"
+                href="https://github.com/BANGWON-LEE/financial-chart"
+                target="_blank"
+              >
+                github
+              </a>
+              <a
+                href="https://github.com/BANGWON-LEE/financial-chart"
+                target="_blank"
+                className="click_dir"
+              >
+                click!
+              </a>
+              {/* <span>qkddnjs31@gmail.com</span> */}
+            </span>
+          </div>
+          <div className="content_block_content">
+            <div className="text_box">
+              <TextBlackHanSansContent>
+                <div className="text_box">
+                  <ul className="text_box_ul">
+                    <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        chart js를 사용해 upbit의 socket으로 받아오는 데이터
+                        시각화
+                      </span>
+                    </li>
+                    <br />
+                    <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        업비트에서 코인 정보를 보여주는 flow를 연구하고 클론
+                        하는 것을 목표로 함
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </TextBlackHanSansContent>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div className="content_block">
+          <div className="content_block_title">
+            <TextDoHyeonSmallTitle>
+              <h2 className="text_dohyeon_small_title_inner">
                 myMap myPlan <br /> (개발 중)
               </h2>
             </TextDoHyeonSmallTitle>
@@ -212,7 +269,7 @@ export default function RightContent() {
             </div>
           </div>
         </div>
-        <div className="content_block">
+        {/* <div className="content_block">
           <div className="content_block_title">
             <TextDoHyeonSmallTitle>
               <h2 className="text_dohyeon_small_title_inner">
@@ -255,9 +312,9 @@ export default function RightContent() {
               </TextBlackHanSansContent>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
-      <section className="my_section_block">
+      {/* <section className="my_section_block">
         <TextGothicA1BigTitle>
           <h1 className="text_gothic_a1_big_title_inner">Skill</h1>
         </TextGothicA1BigTitle>
@@ -280,7 +337,7 @@ export default function RightContent() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

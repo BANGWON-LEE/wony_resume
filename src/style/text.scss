@@ -97,18 +97,40 @@
   }
 }
 
-.skill_block {
-  // display: grid;
-}
+// .skill_block {
+//   // display: grid;
+// }
 
 .skill_text {
   color: grey;
+  font-size: 15px;
   font-weight: 700;
   margin: 0.7em 0.7em 0.7em 0;
+  @media (max-width: 768px) {
+    width: 100%;
+    font-size: 12px;
+    display: block; // flex 또는 grid 사용 중이면 block으로 바꿔서 줄바꿈 유도
+    word-break: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+    line-height: 1rem;
+    // padding: 0 1rem;
+  }
 }
 
 .another_skill_text {
   color: tomato;
+  font-size: 15px;
+  @media (max-width: 768px) {
+    width: 100%;
+    font-size: 12px;
+    display: block; // flex 또는 grid 사용 중이면 block으로 바꿔서 줄바꿈 유도
+    word-break: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+    line-height: 1rem;
+    // pad
+  }
 }
 
 .small_size {

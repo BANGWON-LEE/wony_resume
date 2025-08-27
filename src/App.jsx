@@ -60,6 +60,37 @@ function App() {
               프론트엔드 개발자 이방원입니다.
             </h1>
           </TextGothicA1BigTitle>
+          <div className="skill_box">
+            <div className="content_block">
+              <div className="content_block_content">
+                <div className="skill_container">
+                  <TextGothicA1BigTitle>
+                    <div className="skill_tilte_block">
+                      <p className="skill_title_text">Skill</p>
+                    </div>
+                  </TextGothicA1BigTitle>
+                  <TextGothicA1BigTitle>
+                    <div className="text_box">
+                      <div className="skill_block">
+                        <p className="skill_text">
+                          javascript, typescript, react, next
+                        </p>
+                        <p className="skill_text another_skill_text">
+                          recoil, redux
+                        </p>
+                        <p className="skill_text">
+                          html, css, scss, tailwindcss
+                        </p>
+                        <p className="skill_text another_skill_text">
+                          firebase-auth, firebase-firestore
+                        </p>
+                      </div>
+                    </div>
+                  </TextGothicA1BigTitle>
+                </div>
+              </div>
+            </div>
+          </div>
         </header>
         <div className="header_my_info">
           <div className="header_inner_left">
