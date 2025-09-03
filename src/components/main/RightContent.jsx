@@ -189,7 +189,7 @@ export default function RightContent() {
                       <span>
                         Naver Map API를 Render(CDN) 기반 proxy 서버로
                         배포했으나, sleep 상태로 인한 응답 지연 문제가 발생하여
-                        T Map API로 전환함으로써 응답 속도를
+                        T Map API로 전환함으로써 응답 속도를 &nbsp;
                         <strong>약 10초 → 약 1초</strong>로 개선
                       </span>
                     </li>
