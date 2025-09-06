@@ -18,7 +18,7 @@ export default function LeftContent() {
             <TextBlackHanSansContent>
               <div className="text_box">
                 <p className="text_black_hansans_content_inner">
-                  Frontend Developer
+                  Frontend Developer <br /> QA
                 </p>
                 <span className="text_black_hansans_content_inner">
                   2022.02 ~ 2024.11 <br />
