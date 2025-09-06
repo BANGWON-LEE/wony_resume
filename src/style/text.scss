@@ -3,12 +3,13 @@
   font-weight: normal;
   text-align: left;
   line-height: 1rem;
+  font-size: 1rem;
   &_inner {
-    font-size: 1.2em;
+    font-size: 1.5em;
     line-height: 1em;
     margin: 0.5em 0;
     @media (max-width: 768px) {
-      font-size: 1em;
+      font-size: 0.9em;
       width: 95%;
       display: grid;
     }
@@ -136,4 +137,15 @@
 .small_size {
   font-size: 0.74em;
   text-align: left;
+}
+
+.position_block {
+  display: flex;
+  font-size: 1rem;
+  margin: 0.9rem 0;
+  width: 11rem;
+  justify-content: space-between;
+  @media (max-width: 768px) {
+    margin: 0.4rem 0;
+  }
 }

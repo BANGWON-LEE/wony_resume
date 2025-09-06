@@ -16,22 +16,30 @@ export default function LeftContent() {
               <h2 className="text_dohyeon_small_title_inner">AskStoryDS</h2>
             </TextDoHyeonSmallTitle>
             <TextBlackHanSansContent>
-              <div className="text_box">
-                <p className="text_black_hansans_content_inner">
-                  Frontend Developer <br /> QA
-                </p>
-                <span className="text_black_hansans_content_inner">
-                  2022.02 ~ 2024.11 <br />
+              <ul className="text_box_ul">
+                <li className="content_li">
+                  <span>•</span> 2022.02 ~ 2024.11 <br />
                   (정규직)
-                </span>
-                <span className="text_black_hansans_content_inner">
-                  2024.12 ~ 2025.05 <br />
+                </li>
+                <li className="content_li">
+                  <span>•</span> 2024.12 ~ 2025.05 <br />
                   (계약직)
-                </span>
-              </div>
+                </li>
+              </ul>
             </TextBlackHanSansContent>
           </div>
           <div className="content_block_content">
+            <div className="position_block">
+              <TextDoHyeonSmallTitle>Frontend Developer</TextDoHyeonSmallTitle>
+              <TextDoHyeonSmallTitle> / </TextDoHyeonSmallTitle>
+              <TextDoHyeonSmallTitle>QA</TextDoHyeonSmallTitle>
+              {/* <TextBlackHanSansContent>
+                <span>
+                  공장 현장 작업자가 자신의 업무를 수기가 아닌, 프로그램을
+                  사용하여 기록하고 진행할 수 있도록 하는 프로젝트
+                </span>
+              </TextBlackHanSansContent> */}
+            </div>
             <div className="text_box">
               <TextDoHyeonSmallTitle>
                 <div className="project_header">

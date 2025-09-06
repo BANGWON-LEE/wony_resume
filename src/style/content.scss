@@ -46,4 +46,10 @@
 
 .content_li {
   display: flex;
+  @media (max-width: 768px) {
+    // display: grid;
+    flex-wrap: nowrap;
+    word-break: break-word;
+    white-space: normal;
+  }
 }
