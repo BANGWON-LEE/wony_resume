@@ -143,6 +143,7 @@ export default function LeftContent() {
                   프로젝트의 초기 세팅 및 퍼블리싱을 담당함
                 </span>
               </TextBlackHanSansContent>
+              <br />
               <TextBlackHanSansContent>
                 <div className="text_box">
                   <ul className="text_box_ul">
