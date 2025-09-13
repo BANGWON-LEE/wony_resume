@@ -18,28 +18,29 @@ export default function LeftContent() {
             <TextBlackHanSansContent>
               <ul className="text_box_ul">
                 <li className="content_li">
-                  <span>•</span> 2022.02 ~ 2024.11 <br />
-                  (정규직)
+                  2022.02 ~ 2025.05
+                  {/* <span>•</span> 2022.02 ~ 2024.11 <br /> */}
+                  {/* (정규직) */}
                 </li>
-                <li className="content_li">
+                {/* <li className="content_li">
                   <span>•</span> 2024.12 ~ 2025.05 <br />
                   (계약직)
-                </li>
+                </li> */}
               </ul>
             </TextBlackHanSansContent>
           </div>
           <div className="content_block_content">
-            <div className="position_block">
+            {/* <div className="position_block">
               <TextDoHyeonSmallTitle>Frontend Developer</TextDoHyeonSmallTitle>
               <TextDoHyeonSmallTitle> / </TextDoHyeonSmallTitle>
               <TextDoHyeonSmallTitle>QA</TextDoHyeonSmallTitle>
-              {/* <TextBlackHanSansContent>
+              <TextBlackHanSansContent>
                 <span>
                   공장 현장 작업자가 자신의 업무를 수기가 아닌, 프로그램을
                   사용하여 기록하고 진행할 수 있도록 하는 프로젝트
                 </span>
-              </TextBlackHanSansContent> */}
-            </div>
+              </TextBlackHanSansContent>
+            </div> */}
             <div className="text_box">
               <TextDoHyeonSmallTitle>
                 <div className="project_header">
@@ -52,36 +53,42 @@ export default function LeftContent() {
                 </div>
               </TextDoHyeonSmallTitle>
               <TextBlackHanSansContent>
-                <span>
-                  공장 현장 작업자가 자신의 업무를 수기가 아닌, 프로그램을
-                  사용하여 기록하고 진행할 수 있도록 하는 프로젝트
-                </span>
+                <p>
+                  공장 현장 작업자(프로그램 사용자)가 프로그램을 사용하여 작업
+                  내용을 기록하도록 하는 프로젝트
+                  <br />
+                  공장의 기기 상태 데이터를 차트로 시각화 하는 업무 담당
+                </p>
               </TextBlackHanSansContent>
               <TextBlackHanSansContent>
                 <div className="text_box">
                   <ul className="text_box_ul">
-                    <li className="content_li">
+                    {/* <li className="content_li">
                       <span>•</span>
                       <span>
-                        기존 1~2초 주기 API 폴링 방식으로 인해 불필요한 요청을
-                        보냄. 이를 해결하기 위해 MQTT 프로토콜을 도입하여 데이터
-                        발생 시에만 실시간 수신하는 구조로 변경. 또한
-                        ApexCharts를 활용하여 초기 렌더링과 데이터 갱신을
-                        분리하여 최적화를 진행.
+                        배터리 생산 기기의 데이터를 차트로 시각화 하여
                       </span>
+                    </li> */}
+
+                    <li className="content_li">
+                      - 사용자가 한 페이지에서 3종류 이상의 기기 상태 데이터를
+                      각각 차트로 보길 원함
+                      <br />- 기존에는 페이지에 1개의 차트, 약 700개의 데이터만
+                      시각화 됨
                     </li>
                     <br />
                     <li className="content_li">
                       <span>•</span>
                       <span>
-                        작업 생산성을 높이기 위해 Chart.js 기반 재사용 가능한
-                        차트 컴포넌트를 개발. 차트 타입과 API 데이터만 주입하면
-                        사용할 수 있도록 설계하고, 스타일 커스터마이징 기능을
-                        추가하여 다양한 시각화 요구를 지원. 이를 통해 데이터
+                        기존 1~2초 주기 API 폴링 방식을 MQTT 프로토콜을 도입하여
+                        데이터 발생 시에만 실시간 응답 받는 구조로 변경.
                         <br />
-                        시각화 작업의 편의성과 개발 속도 향상에 기여.
+                        <strong>
+                          불필요한 요청을 없애고 필요한 응답만 받도록 개선
+                        </strong>
                       </span>
                     </li>
+
                     <br />
                     <li className="content_li">
                       <span>•</span>
@@ -92,7 +99,25 @@ export default function LeftContent() {
                         <strong>2.6초 → 0.2초</strong>로 대폭 개선.
                       </span>
                     </li>
+                    <br />
+                    <li className="content_li">
+                      - 4종류 데이터를 차트로 시각화, 개당 3,000개 이상의 데이터
+                      표현
+                    </li>
+                    <br />
+                    <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        작업 생산성을 높이기 위해 Chart.js 기반 재사용 가능한
+                        차트 컴포넌트를 개발. 차트 타입과 API 데이터만 주입하면
+                        사용할 수 있도록 설계하고, 스타일 커스터마이징 기능을
+                        추가하여 다양한 시각화 요구를 지원. 이를 통해 데이터
+                        <br />
+                        시각화 작업의 편의성에 기여
+                      </span>
+                    </li>
                   </ul>
+
                   <p className="skill_text">
                     javascript, nextron, tailwindcss, recoil, chart.js,
                     ApexCharts
@@ -109,10 +134,13 @@ export default function LeftContent() {
                   </TextBlackHanSansContent>
                 </div>
               </TextDoHyeonSmallTitle>
+
               <TextBlackHanSansContent>
                 <span>
                   우리나라 여성 영화제를 웹으로 서비스하는, purplay 서비스의
                   리뉴얼 프로젝트 진행.
+                  <br />
+                  프로젝트의 초기 세팅 및 퍼블리싱을 담당함
                 </span>
               </TextBlackHanSansContent>
               <TextBlackHanSansContent>
@@ -131,7 +159,25 @@ export default function LeftContent() {
                       </span>
                     </li>
                   </ul>
+
                   <p className="skill_text">javascript, next, scss, mui</p>
+                  <p className="link_text">
+                    <a
+                      className="click_text"
+                      href="https://purplay.co.kr/"
+                      target="_blank"
+                    >
+                      Link
+                    </a>
+                    <a
+                      href="https://github.com/BANGWON-LEE/wony-chart-components"
+                      target="_blank"
+                      className="click_dir"
+                    >
+                      click!
+                    </a>
+                    {/* <span>qkddnjs31@gmail.com</span> */}
+                  </p>
                 </div>
               </TextBlackHanSansContent>
             </div>
@@ -158,19 +204,19 @@ export default function LeftContent() {
                     <li className="content_li">
                       <span>•</span>
                       <span>
-                        토토 판매점 위치 정보를 지도에 효과적으로 시각화하기
-                        위해 Kakao Map API를 활용하여, API로 전달받은 토토
-                        판매점 좌표만 필터링하여 마커로 시각화.
+                        사용자가 게임 판매점을 찾을 수 있도록 좌표를 사용하여
+                        데이터를 Kakao Map API로 시각화.
                       </span>
                     </li>
                     <br />
                     <li className="content_li">
                       <span>•</span>
                       <span>
-                        사용자가 이미지를 삽입하여 글을 작성할 수 있도록
-                        React-Quill을 활용한 이미지 업로드 기능을 개발. 업로드
-                        진행 중 로딩용 임시 이미지를 삽입하고, 완료 후 실제
-                        이미지로 교체하여 사용자 경험(UX) 최적화 구현.
+                        게시판 글 작성 및 수정 페이지에서 사용자가 이미지를
+                        삽입하여 게시글을 작성할 수 있도록 React-Quill을 활용한
+                        이미지 업로드 기능을 개발. 업로드 진행 중 로딩용 임시
+                        이미지를 삽입하고, 완료 후 실제 이미지로 교체하여 사용자
+                        경험(UX) 최적화 구현.
                       </span>
                     </li>
                   </ul>

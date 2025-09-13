@@ -29,7 +29,7 @@ a {
 }
 
 .header_inner_left {
-  flex: 0 0 68.5%;
+  flex: 0 0 100%;
 
   @media (max-width: 768px) {
     margin: 0 auto;
@@ -50,11 +50,29 @@ a {
   //   text-align: right;
 }
 
+.info_container {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    display: grid;
+    margin: 0.8em auto;
+    width: 100%;
+    position: relative;
+    word-break: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+}
+
 .my_info_box {
+  // position: absolute;
   display: grid;
-  position: absolute;
+  float: right;
+  height: 65%;
   right: 0px;
-  width: 55%;
+  // width: 56%;
+  width: 90%;
   //   margin-top: 1rem;
   line-height: 1.3rem;
   @media (max-width: 768px) {
@@ -101,8 +119,12 @@ a {
   }
 }
 
+.main_box {
+  display: grid;
+}
+
 .total_block {
-  width: 100%;
+  width: 73%;
   min-width: 320px;
   max-width: 1920px;
   margin: 0 auto;
@@ -132,7 +154,8 @@ a {
 }
 
 .skill_box {
-  width: 408px;
+  // width: 408px;
+  width: 90%;
   // display: grid;
   // align-items: last baseline;
 }
@@ -140,7 +163,7 @@ a {
 .skill_container {
   display: flex;
   // width: 370px;
-  float: right;
+  // float: right;
   width: 90%;
   justify-content: space-between;
   @media (max-width: 768px) {

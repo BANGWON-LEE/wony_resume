@@ -55,102 +55,112 @@ function App() {
         <header>
           <Analytics />
           <TextGothicA1BigTitle>
-            <h1 className="text_gothic_a1_big_title_inner">안녕하세요</h1>
             <h1 className="text_gothic_a1_big_title_inner">
-              프론트엔드 개발자 이방원입니다.
+              데이터 시각화를 연구하는, 프론트엔드 개발자 이방원입니다.
             </h1>
+            {/* <h1 className="text_gothic_a1_big_title_inner">
+              프론트엔드 개발자 이방원입니다.
+            </h1> */}
           </TextGothicA1BigTitle>
-          <div className="skill_box">
-            <div className="content_block">
-              <div className="content_block_content">
-                <div className="skill_container">
-                  <TextGothicA1BigTitle>
-                    <div className="skill_tilte_block">
-                      <p className="skill_title_text">Skill</p>
-                    </div>
-                  </TextGothicA1BigTitle>
-                  <TextGothicA1BigTitle>
-                    <div className="text_box">
-                      <div className="skill_block">
-                        <p className="skill_text">
-                          javascript, typescript, react, next
-                        </p>
-                        <p className="skill_text another_skill_text">
-                          recoil, redux
-                        </p>
-                        <p className="skill_text">
-                          html, css, scss, tailwindcss
-                        </p>
-                        <p className="skill_text another_skill_text">
-                          firebase-auth, firebase-firestore
-                        </p>
-                      </div>
-                    </div>
-                  </TextGothicA1BigTitle>
-                </div>
-              </div>
-            </div>
-          </div>
         </header>
         <div className="header_my_info">
           <div className="header_inner_left">
             <TextBlackHanSansContent>
-              <span className="text_black_hansans_content_inner">
-                차트 라이브러리를 활용해 3,000개 이상의 실시간 데이터를
-                시각화하고, 성능을 개선한 경험이 있습니다. <br /> 또한, 지속적인
-                개선을 위해 고민하고 기록하는 습관을 실천하고 있습니다.
-              </span>
-              <span className="text_black_hansans_content_inner">
-                원활한 협업을 위해 짧은 내용은 구두로, <br /> 긴 내용은 텍스트로
-                정리해 동료들이 내용을 정확히 이해하고 빠르게 대응할 수 있도록
+              <p className="text_black_hansans_content_inner">
+                스마트 팩토리 프로젝트에서, 공장 기기의 데이터를 차트로 시각화
+                한 경험이 있습니다. <br /> 과거 데이터 및 mqtt로 받아오는 실시간
+                데이터,약 3000개 이상을 시각화 하고, 성능을 개선한 경험이
+                있습니다.
+                <br />
+                또한, 기술 경험이나 공부 내용을 sns(인스타그램)에 기록하고
+                있습니다
+              </p>
+              <p className="text_black_hansans_content_inner">
+                원활한 협업을 위해 짧은 내용은 구두로, 긴 내용은 텍스트로 정리해
+                동료들이 내용을 정확히 이해하고 빠르게 대응할 수 있도록
                 지원합니다.
-              </span>
+              </p>
             </TextBlackHanSansContent>
           </div>
-          <div className="header_inner_right">
-            <TextBlackHanSansContent>
-              {/* <div className="text_box"> */}
-              <div className="my_info_box">
-                <span className="my_info_box_inner">
-                  이메일 :
-                  <a
-                    className="click_text"
-                    href="mailto:qkddnjs31@gmail.com"
-                    target="_blank"
-                  >
-                    qkddnjs31@gmail.com
-                    <span className="click_dir">click!</span>
-                  </a>
-                  {/* <span>qkddnjs31@gmail.com</span> */}
-                </span>
-                <span className="my_info_box_inner">
-                  instagram :
-                  <a
-                    className="click_text"
-                    href="https://www.instagram.com/fe_developer_wony"
-                    target="_blank"
-                  >
-                    fe_devloper_wony
-                    <span className="click_dir">click!</span>
-                  </a>
-                </span>
-                <span className="my_info_box_inner">
-                  Git hub :
-                  <a href="https://github.com/BANGWON-LEE" target="_blank">
-                    BANGWON-LEE
-                    <span className="click_dir">click!</span>
-                  </a>
-                </span>
-              </div>
+          {/* <div className="header_inner_right"> */}
 
-              {/* </div> */}
-            </TextBlackHanSansContent>
-          </div>
+          {/* </div> */}
         </div>
-        <main className="main_block">
+
+        {/* <main className="main_block"> */}
+        <main className="main_box">
+          {/* <TextBlackHanSansContent> */}
+          {/* <div className="text_box"> */}
+
+          <div className="info_container">
+            <div className="skill_box">
+              {/* <div className="content_block"> */}
+              {/* <div className="content_block_content"> */}
+              <div className="skill_container">
+                <TextGothicA1BigTitle>
+                  <div className="skill_tilte_block">
+                    <p className="skill_title_text">Skill</p>
+                  </div>
+                </TextGothicA1BigTitle>
+                <TextGothicA1BigTitle>
+                  <div className="text_box">
+                    <div className="skill_block">
+                      <p className="skill_text">
+                        javascript, typescript, react, next
+                      </p>
+                      <p className="skill_text another_skill_text">
+                        recoil, redux
+                      </p>
+                      <p className="skill_text">html, css, scss, tailwindcss</p>
+                      <p className="skill_text another_skill_text">
+                        firebase-auth, firebase-firestore
+                      </p>
+                    </div>
+                  </div>
+                </TextGothicA1BigTitle>
+              </div>
+              {/* </div> */}
+              {/* </div> */}
+            </div>
+            <div className="my_info_box">
+              <span className="my_info_box_inner">
+                이메일 :
+                <a
+                  className="click_text"
+                  href="mailto:qkddnjs31@gmail.com"
+                  target="_blank"
+                >
+                  qkddnjs31@gmail.com
+                  <span className="click_dir">click!</span>
+                </a>
+                {/* <span>qkddnjs31@gmail.com</span> */}
+              </span>
+              <span className="my_info_box_inner">
+                instagram :
+                <a
+                  className="click_text"
+                  href="https://www.instagram.com/fe_developer_wony"
+                  target="_blank"
+                >
+                  fe_devloper_wony
+                  <span className="click_dir">click!</span>
+                </a>
+              </span>
+              <span className="my_info_box_inner">
+                Git hub :
+                <a href="https://github.com/BANGWON-LEE" target="_blank">
+                  BANGWON-LEE
+                  <span className="click_dir">click!</span>
+                </a>
+              </span>
+            </div>
+          </div>
+          {/* </div> */}
+          {/* </TextBlackHanSansContent> */}
           <LeftContent />
           <RightContent />
         </main>
+        {/* </main> */}
       </div>
     </>
   )
