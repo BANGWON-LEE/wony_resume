@@ -88,7 +88,6 @@ export default function LeftContent() {
                         </strong>
                       </span>
                     </li>
-
                     <br />
                     <li className="content_li">
                       <span>•</span>

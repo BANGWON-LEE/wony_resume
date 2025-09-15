@@ -156,6 +156,9 @@ a {
 .skill_box {
   // width: 408px;
   width: 90%;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
   // display: grid;
   // align-items: last baseline;
 }
