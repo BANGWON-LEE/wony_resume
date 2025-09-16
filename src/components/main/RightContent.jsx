@@ -254,11 +254,13 @@ export default function RightContent() {
           <div className="content_block_title">
             <TextDoHyeonSmallTitle>
               <h2 className="text_dohyeon_small_title_inner">
-                실시간 통신 데이터
-                <br /> 시각화 프로젝트 <br />
-                (연구 중)
+                upbit chart clone 프로젝트 (연구 중)
               </h2>
             </TextDoHyeonSmallTitle>
+            <p className="skill_text small_size">
+              개인 프로젝트 / 25년 7월 21일 시작
+            </p>
+
             <p className="skill_text small_size">
               javascript, react, chartJS, upbit api
             </p>
@@ -314,6 +316,9 @@ export default function RightContent() {
                 myMap myPlan <br /> (개발 중)
               </h2>
             </TextDoHyeonSmallTitle>
+            <p className="skill_text small_size">
+              개인 프로젝트 / 25년 5월 15일 시작
+            </p>
             <p className="skill_text small_size">
               typescript, next, recoil, naver map api, T map api
             </p>
