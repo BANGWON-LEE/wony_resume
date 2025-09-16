@@ -56,7 +56,7 @@ function App() {
           <Analytics />
           <TextGothicA1BigTitle>
             <h1 className="text_gothic_a1_big_title_inner">
-              데이터 시각화를 연구하는, 프론트엔드 개발자 이방원입니다.
+              데이터 시각화를 연구하는, 프론트엔드 개발자
             </h1>
             {/* <h1 className="text_gothic_a1_big_title_inner">
               프론트엔드 개발자 이방원입니다.
@@ -72,8 +72,15 @@ function App() {
                 데이터,약 3000개 이상을 시각화 하고, 성능을 개선한 경험이
                 있습니다.
                 <br />
-                또한, 기술 경험이나 공부 내용을 sns(인스타그램)에 기록하고
-                있습니다
+                또한, 기술 경험이나 공부 내용을&nbsp;
+                <a
+                  // className="click_text"
+                  href="https://www.instagram.com/fe_developer_wony"
+                  target="_blank"
+                >
+                  sns(인스타그램)
+                </a>
+                에 기록하고 있습니다
               </p>
               <p className="text_black_hansans_content_inner">
                 원활한 협업을 위해 짧은 내용은 구두로, 긴 내용은 텍스트로 정리해
@@ -123,6 +130,10 @@ function App() {
               {/* </div> */}
             </div>
             <div className="my_info_box">
+              <span className="my_info_box_inner">
+                이름 :<span className="click_text">이방원</span>
+                {/* <span>qkddnjs31@gmail.com</span> */}
+              </span>
               <span className="my_info_box_inner">
                 이메일 :
                 <a

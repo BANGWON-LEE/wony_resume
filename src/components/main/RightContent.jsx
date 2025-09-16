@@ -36,8 +36,8 @@ export default function RightContent() {
                         실행 컨텍스트의 구조 (variableEnvironment,
                         lexicalEnvironment)와 이를 구성하는 내부 동작
                         원리(environmentRecord, outerEnvironment)를 이해하고,
-                        <br /> 이를 통해 호이스팅, this 바인딩, 클로저 개념을
-                        깊이 있게 습득
+                        이를 통해 호이스팅, this 바인딩, 클로저 개념을 깊이 있게
+                        습득
                       </span>
                     </li>
                     <br />
@@ -51,6 +51,57 @@ export default function RightContent() {
                         원리와 브라우저 동작 방식에 대한 실전 감각 함양
                       </span>
                     </li>
+                    <p className="study_link">
+                      <a
+                        className="click_text"
+                        // href="https://github.com/BANGWON-LEE/react-calendar-w-design"
+                        href="https://github.com/f-lab-edu/deep-copy-wony"
+                        target="_blank"
+                      >
+                        Deep copy git
+                      </a>
+                      <a
+                        href="https://github.com/f-lab-edu/deep-copy-wony"
+                        target="_blank"
+                        className="click_dir"
+                      >
+                        click!
+                      </a>
+                    </p>
+                    <p className="study_link">
+                      <a
+                        className="click_text"
+                        // href="https://github.com/BANGWON-LEE/react-calendar-w-design"
+                        href="https://github.com/BANGWON-LEE/hash-router-wony"
+                        target="_blank"
+                      >
+                        hasRouter git
+                      </a>
+                      <a
+                        href="https://github.com/BANGWON-LEE/hash-router-wony"
+                        target="_blank"
+                        className="click_dir"
+                      >
+                        click!
+                      </a>
+                    </p>
+                    <p className="study_link">
+                      <a
+                        className="click_text"
+                        // href="https://github.com/BANGWON-LEE/react-calendar-w-design"
+                        href="https://github.com/BANGWON-LEE/history-router-wony"
+                        target="_blank"
+                      >
+                        Deep copy git
+                      </a>
+                      <a
+                        href="https://github.com/BANGWON-LEE/history-router-wony"
+                        target="_blank"
+                        className="click_dir"
+                      >
+                        click!
+                      </a>
+                    </p>
                     <br />
                     <li className="content_li">
                       <span>•</span>
