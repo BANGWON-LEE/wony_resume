@@ -198,6 +198,9 @@ export default function RightContent() {
                 <br /> 컴포넌트 개발
               </h2>
             </TextDoHyeonSmallTitle>
+            <p className="skill_text small_size">
+              개인 프로젝트 / 25년 3월 20일 시작
+            </p>
             <p className="skill_text small_size">javascript, react, chartJS</p>
             <span className="my_info_box_inner">
               <a
@@ -260,7 +263,6 @@ export default function RightContent() {
             <p className="skill_text small_size">
               개인 프로젝트 / 25년 7월 21일 시작
             </p>
-
             <p className="skill_text small_size">
               javascript, react, chartJS, upbit api
             </p>
