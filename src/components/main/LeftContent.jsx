@@ -69,7 +69,13 @@ export default function LeftContent() {
                         배터리 생산 기기의 데이터를 차트로 시각화 하여
                       </span>
                     </li> */}
-
+                    <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        프로젝트의 초기 세팅 및 컴포넌트 구성 및 UI 개발
+                      </span>
+                    </li>
+                    <br />
                     <li className="content_li">
                       - 사용자가 한 페이지에서 3종류 이상의 기기 상태 데이터를
                       각각 차트로 보길 원함
@@ -77,6 +83,7 @@ export default function LeftContent() {
                       시각화 됨
                     </li>
                     <br />
+
                     <li className="content_li">
                       <span>•</span>
                       <span>
@@ -98,11 +105,7 @@ export default function LeftContent() {
                         <strong>2.6초 → 0.2초</strong>로 대폭 개선.
                       </span>
                     </li>
-                    <br />
-                    <li className="content_li">
-                      - 4종류 데이터를 차트로 시각화, 개당 3,000개 이상의 데이터
-                      표현
-                    </li>
+
                     <br />
                     <li className="content_li">
                       <span>•</span>
@@ -113,6 +116,16 @@ export default function LeftContent() {
                         추가하여 다양한 시각화 요구를 지원. 이를 통해 데이터
                         <br />
                         시각화 작업의 편의성에 기여
+                      </span>
+                    </li>
+                    <br />
+                    <li className="content_li">
+                      <span>*</span>
+                      <span>
+                        <strong>
+                          차트 개발을 통해, 공장의 작업자들이 기기의 오류를
+                          실시간으로 점검할 수 있도록 기여
+                        </strong>
                       </span>
                     </li>
                   </ul>
@@ -139,7 +152,7 @@ export default function LeftContent() {
                   우리나라 여성 영화제를 웹으로 서비스하는, purplay 서비스의
                   리뉴얼 프로젝트 진행.
                   <br />
-                  프로젝트의 초기 세팅 및 퍼블리싱을 담당함
+                  프로젝트의 초기 세팅 및 컴포넌트 구성 및 UI 개발
                 </span>
               </TextBlackHanSansContent>
               <br />
@@ -151,11 +164,7 @@ export default function LeftContent() {
                       <span>
                         Next.js 기반 프로젝트 초기 세팅과 폴더 구조를 설계하고,
                         서비스 사용자 페이지(19개)와 관리자 페이지(5개) 총 24개
-                        페이지에 대해 반응형 퍼블리싱을 단독으로 진행함. 관리자
-                        페이지는 MUI <br />
-                        기본 컴포넌트를 활용하여 빠르게 개발하고, 기본
-                        레이아웃과 UI를 신속하게 구성함. 퍼블리싱 작업은 약
-                        2개월 내에 완료하여 개발 일정 준수에 기여함.
+                        페이지의 컴포넌트 구성및 UI 개발
                       </span>
                     </li>
                   </ul>

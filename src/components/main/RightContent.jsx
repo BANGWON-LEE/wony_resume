@@ -30,7 +30,7 @@ export default function RightContent() {
               <TextBlackHanSansContent>
                 <div className="text_box">
                   <ul className="text_box_ul">
-                    <li className="content_li">
+                    {/* <li className="content_li">
                       <span>•</span>
                       <span>
                         실행 컨텍스트의 구조 (variableEnvironment,
@@ -39,7 +39,7 @@ export default function RightContent() {
                         이를 통해 호이스팅, this 바인딩, 클로저 개념을 깊이 있게
                         습득
                       </span>
-                    </li>
+                    </li> */}
                     <br />
                     <li className="content_li">
                       <span>•</span>
@@ -194,69 +194,6 @@ export default function RightContent() {
           <div className="content_block_title">
             <TextDoHyeonSmallTitle>
               <h2 className="text_dohyeon_small_title_inner">
-                재사용 가능한 차트
-                <br /> 컴포넌트 개발
-              </h2>
-            </TextDoHyeonSmallTitle>
-            <p className="skill_text small_size">
-              개인 프로젝트 / 25년 3월 20일 시작
-            </p>
-            <p className="skill_text small_size">javascript, react, chartJS</p>
-            <span className="my_info_box_inner">
-              <a
-                className="click_text"
-                href="https://github.com/BANGWON-LEE/wony-chart-components"
-                target="_blank"
-              >
-                github
-              </a>
-              <a
-                href="https://github.com/BANGWON-LEE/wony-chart-components"
-                target="_blank"
-                className="click_dir"
-              >
-                click!
-              </a>
-              {/* <span>qkddnjs31@gmail.com</span> */}
-            </span>
-          </div>
-          <div className="content_block_content">
-            <div className="text_box">
-              <TextBlackHanSansContent>
-                <div className="text_box">
-                  <ul className="text_box_ul">
-                    <li className="content_li">
-                      <span>•</span>
-                      <span>
-                        Chart.js 기반의 재사용 가능한 차트 컴포넌트를 개발.
-                        time, value, key, type 등의 props만 전달하면 다양한
-                        데이터를 시각화할 수 있도록 구현하여 사용성과 확장성을
-                        높임
-                      </span>
-                    </li>
-                    <br />
-                    <li className="content_li">
-                      <span>•</span>
-                      <span>
-                        실시간으로 수신되는 3,000개 이상의 데이터를 렌더링 성능
-                        저하 없이 시각화하기 위해 Chart.js를 도입. Chart.js는
-                        하나의 canvas 요소에 픽셀 단위로 차트를 그리는 방식으로,
-                        DOM 기반 라이브러리보다 렌더링 부담이 적음. <br />
-                        현장에서는 작업물에 대한 데이터를 실시간으로 빠르게
-                        확인해야 하기 때문에, 화려한 인터랙션보다 빠르고
-                        안정적인 시각화가 핵심이었음.
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </TextBlackHanSansContent>
-            </div>
-          </div>
-        </div>
-        <div className="content_block">
-          <div className="content_block_title">
-            <TextDoHyeonSmallTitle>
-              <h2 className="text_dohyeon_small_title_inner">
                 upbit chart clone 프로젝트 (연구 중)
               </h2>
             </TextDoHyeonSmallTitle>
@@ -315,26 +252,26 @@ export default function RightContent() {
           <div className="content_block_title">
             <TextDoHyeonSmallTitle>
               <h2 className="text_dohyeon_small_title_inner">
-                myMap myPlan <br /> (개발 중)
+                myPlan <br /> (개발 중)
               </h2>
             </TextDoHyeonSmallTitle>
             <p className="skill_text small_size">
-              개인 프로젝트 / 25년 5월 15일 시작
+              개인 프로젝트 / 25년 11월 25일 시작
             </p>
             <p className="skill_text small_size">
-              typescript, next, recoil, naver map api, T map api
+              typescript, next, naver map api, T map api
             </p>
             <p className="my_info_box_inner">
               <a
                 className="click_text"
                 // href="https://github.com/BANGWON-LEE/react-calendar-w-design"
-                href="https://github.com/BANGWON-LEE/my-map-my-plan"
+                href="https://github.com/BANGWON-LEE/myPlan-lite"
                 target="_blank"
               >
                 github
               </a>
               <a
-                href="https://github.com/BANGWON-LEE/my-map-my-plan"
+                href="https://github.com/BANGWON-LEE/myPlan-lite"
                 target="_blank"
                 className="click_dir"
               >
@@ -345,13 +282,13 @@ export default function RightContent() {
               <a
                 className="click_text"
                 // href="https://github.com/BANGWON-LEE/react-calendar-w-design"
-                href="https://my-map-my-plan.vercel.app/"
+                href="https://my-plan-nine.vercel.app/"
                 target="_blank"
               >
                 link
               </a>
               <a
-                href="https://my-map-my-plan.vercel.app/"
+                href="https://my-plan-nine.vercel.app/"
                 target="_blank"
                 className="click_dir"
               >
@@ -367,27 +304,17 @@ export default function RightContent() {
                     <li className="content_li">
                       <span>•</span>
                       <span>
-                        naver map api와 T map api를 사용하여, 여행 계획 및 일정
-                        계획 등 수립을 위한 서비스 개발 중
+                        naver map api와 T map api를 사용하여, 목적 기반 자동
+                        루트 추천 서비스 개발 중
                       </span>
                     </li>
                     <br />
                     <li className="content_li">
                       <span>•</span>
                       <span>
-                        Naver Map API를 Render(CDN) 기반 proxy 서버로
-                        배포했으나, sleep 상태로 인한 응답 지연 문제가 발생하여
-                        T Map API로 전환함으로써 응답 속도를 &nbsp;
-                        <strong>약 10초 → 약 1초</strong>로 개선
-                      </span>
-                    </li>
-                    <br />
-                    <li className="content_li">
-                      <span>•</span>
-                      <span>
-                        지도 외 페이지 중 데이터 조회 페이지는 Server
-                        Components를 적용해 상태 관리·수화 비용 제거, 코드
-                        단순화
+                        현재 위치를 기준으로 카페 / 식사 / 산책 / 휴식 등 목적을
+                        선택하면 AI가 가장 적합한 최적 루트 1개를 1초 만에
+                        추천해주는 가벼운 라이트 서비스
                       </span>
                     </li>
                   </ul>

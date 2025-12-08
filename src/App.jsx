@@ -66,7 +66,24 @@ function App() {
         <div className="header_my_info">
           <div className="header_inner_left">
             <TextBlackHanSansContent>
-              <p className="text_black_hansans_content_inner">
+              {/* <p className="text_black_hansans_content_inner"> */}
+              데이터를 차트 또는 지도로 표현하는 것을 좋아합니다. <br /> mqtt로
+              받아오는 실시간 누적 데이터, 약 3000개를 시각화 함. 이를 통해
+              사용자가 기기의 오류를 체크하는 데 기여하였습니다
+              <br /> t map api와 네이버 지도 api를 통해 데이터를 시각화를
+              경험하였습니다.
+              <br /> Figma와 slack, jira를 통해 협업합니다. <br />
+              기술 경험이나 공부 내용을&nbsp;
+              <a
+                // className="click_text"
+                href="https://www.instagram.com/fe_developer_wony"
+                target="_blank"
+              >
+                sns(인스타그램)
+              </a>
+              에 기록하고 있습니다
+              {/* </p> */}
+              {/* <p className="text_black_hansans_content_inner">
                 스마트 팩토리 프로젝트에서, 공장 기기의 데이터를 차트로 시각화
                 한 경험이 있습니다. <br /> 과거 데이터 및 mqtt로 받아오는 실시간
                 데이터,약 3000개 이상을 시각화 하고, 성능을 개선한 경험이
@@ -86,7 +103,7 @@ function App() {
                 원활한 협업을 위해 짧은 내용은 구두로, 긴 내용은 텍스트로 정리해
                 동료들이 내용을 정확히 이해하고 빠르게 대응할 수 있도록
                 지원합니다.
-              </p>
+              </p> */}
             </TextBlackHanSansContent>
           </div>
           {/* <div className="header_inner_right"> */}
