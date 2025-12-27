@@ -23,7 +23,7 @@
     }
 
     &_title {
-      flex: 0 0 20%;
+      flex: 0 0 21.5%;
       text-align: center;
       @media (max-width: 768px) {
         // display: grid;
@@ -34,7 +34,7 @@
     }
 
     &_content {
-      flex: 0 0 78%;
+      flex: 0 0 76%;
       @media (max-width: 768px) {
         // display: grid;
         flex-wrap: nowrap;

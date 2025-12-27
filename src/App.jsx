@@ -67,13 +67,16 @@ function App() {
           <div className="header_inner_left">
             <TextBlackHanSansContent>
               {/* <p className="text_black_hansans_content_inner"> */}
-              데이터를 차트 또는 지도로 표현하는 것을 좋아합니다. <br /> mqtt로
-              받아오는 실시간 누적 데이터, 약 3000개를 시각화 함. 이를 통해
-              사용자가 기기의 오류를 체크하는 데 기여하였습니다
-              <br /> t map api와 네이버 지도 api를 통해 데이터를 시각화를
-              경험하였습니다.
-              <br /> Figma와 slack, jira를 통해 협업합니다. <br />
-              기술 경험이나 공부 내용을&nbsp;
+              저는 문제 발견 시, 방법을 찾고 해결하는 과정을 경험한
+              개발자입니다. <br />
+              스마트 팩토리 프로젝트에서 공장 기기의 오류를 빠르게 대응하기
+              위해, 모니터링 필요. 실시간 메시징 프로토콜, mqtt를 사용하여
+              데이터 차트와 엑셀로 시각화 하였습니다.
+              <br />
+              기기의 오류 및 변화를 발견하고 대응하며 문서화 하는 시간을 &nbsp;
+              <strong>1시간 → 5분으로 단축</strong>
+              시켰습니다. <br /> Figma와 slack, jira를 통해 협업합니다. 기술
+              경험이나 공부 내용을&nbsp;
               <a
                 // className="click_text"
                 href="https://www.instagram.com/fe_developer_wony"

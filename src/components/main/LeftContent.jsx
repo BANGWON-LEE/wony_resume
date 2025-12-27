@@ -137,7 +137,7 @@ export default function LeftContent() {
                 </div>
               </TextBlackHanSansContent>
             </div>
-            <div className="text_box">
+            {/* <div className="text_box">
               <TextDoHyeonSmallTitle>
                 <div className="project_header">
                   <h2 className="text_dohyeon_small_title_inner">퍼플레이</h2>
@@ -186,10 +186,10 @@ export default function LeftContent() {
                       click!
                     </a>
                     {/* <span>qkddnjs31@gmail.com</span> */}
-                  </p>
+            {/* </p>
                 </div>
               </TextBlackHanSansContent>
-            </div>
+            </div> */}
             <div className="text_box">
               <TextDoHyeonSmallTitle>
                 <div className="project_header">
@@ -222,10 +222,12 @@ export default function LeftContent() {
                       <span>•</span>
                       <span>
                         게시판 글 작성 및 수정 페이지에서 사용자가 이미지를
-                        삽입하여 게시글을 작성할 수 있도록 React-Quill을 활용한
-                        이미지 업로드 기능을 개발. 업로드 진행 중 로딩용 임시
-                        이미지를 삽입하고, 완료 후 실제 이미지로 교체하여 사용자
-                        경험(UX) 최적화 구현.
+                        삽입하여 게시글을 작성하도록 React-Quill을 활용한 이미지
+                        업로드 기능 개발. React-Quill 이미지 업로드 시, 인라인
+                        스타일(style 속성)이 서버에 저장/렌더링 과정에서
+                        적용되지 않는 이슈 분석 에디터 콘텐츠에 인라인 스타일을
+                        작성하지 않고, 렌더링 단계에서 CSS 선택자(.editor &gt;
+                        img)를 사용하여 스타일 적용
                       </span>
                     </li>
                   </ul>

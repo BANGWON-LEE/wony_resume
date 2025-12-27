@@ -233,12 +233,40 @@ export default function RightContent() {
                         시각화
                       </span>
                     </li>
-                    <br />
+
                     <li className="content_li">
                       <span>•</span>
                       <span>
                         업비트에서 코인 정보를 보여주는 flow를 연구하고 클론
                         하는 것을 목표로 함
+                      </span>
+                    </li>
+                    <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        Chart.js Financial Chart를 활용한 Candlestick 시각화 및
+                        축 스케일 직접 설계{' '}
+                      </span>
+                    </li>
+                    <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        {' '}
+                        차트 focus·패닝·휠 이벤트에 따른 렌더링 제어로 실시간 UX
+                        안정화{' '}
+                      </span>
+                    </li>
+                    <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        REST API 응답 제한 분석 후 과거 데이터 탐색 범위 확장{' '}
+                      </span>
+                    </li>
+                    <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        실시간/과거 데이터 분리 저장 및 병합 처리로 데이터
+                        정합성 유지{' '}
                       </span>
                     </li>
                   </ul>
@@ -308,13 +336,51 @@ export default function RightContent() {
                         루트 추천 서비스 개발 중
                       </span>
                     </li>
-                    <br />
+
                     <li className="content_li">
                       <span>•</span>
                       <span>
                         현재 위치를 기준으로 카페 / 식사 / 산책 / 휴식 등 목적을
                         선택하면 AI가 가장 적합한 최적 루트 1개를 1초 만에
                         추천해주는 가벼운 라이트 서비스
+                      </span>
+                    </li>
+                    <li className="content_li">
+                      <span>•</span>{' '}
+                      <span>
+                        네이버 지도 API와 T map API를 연동한 위치 기반 장소 탐색
+                        및 경로 추천 기능 개발
+                      </span>
+                    </li>
+                    <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        {' '}
+                        네이버 지도 API의 네트워크 기반 현재 위치 감지를 활용한
+                        좌표 수신 및 지도 렌더링 구현
+                      </span>
+                    </li>
+                    <li className="content_li">
+                      <span>•</span>{' '}
+                      <span>
+                        다중 목적 선택 시 병렬 장소 검색 API 요청 구조 설계
+                        (Promise.all)
+                      </span>
+                    </li>
+                    <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        {' '}
+                        TanStack Query 캐싱과 로컬 스토리지를 활용하여 동일 위치
+                        재요청 시 발생하던 지도 렌더링 지연 문제 개선
+                      </span>
+                    </li>
+                    <li className="content_li">
+                      <span>•</span>{' '}
+                      <span>
+                        T map API 좌표 기반 네이버 지도 마커 표시 기능 구현 시,
+                        요청 중 progress UX와 인터랙션 제어를 적용하여 연속
+                        클릭으로 인한 UI 깨짐 문제 해결
                       </span>
                     </li>
                   </ul>
