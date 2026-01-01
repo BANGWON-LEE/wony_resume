@@ -67,16 +67,14 @@ function App() {
           <div className="header_inner_left">
             <TextBlackHanSansContent>
               {/* <p className="text_black_hansans_content_inner"> */}
-              저는 문제 발견 시, 방법을 찾고 해결하는 과정을 경험한
-              개발자입니다. <br />
-              스마트 팩토리 프로젝트에서 공장 기기의 오류를 빠르게 대응하기
-              위해, 모니터링 필요. 실시간 메시징 프로토콜, mqtt를 사용하여
-              데이터 차트와 엑셀로 시각화 하였습니다.
-              <br />
-              기기의 오류 및 변화를 발견하고 대응하며 문서화 하는 시간을 &nbsp;
-              <strong>1시간 → 5분으로 단축</strong>
-              시켰습니다. <br /> Figma와 slack, jira를 통해 협업합니다. 기술
-              경험이나 공부 내용을&nbsp;
+              문제를 관찰하고, 데이터와 UX 관점에서 해결해온 프론트엔드
+              개발자입니다.
+              <br /> 스마트 팩토리 프로젝트에서 실시간 데이터 시각화를 통해 기기
+              상태를 파악할 수 있는 환경을 구축하고, 업무 기록 및 문서화 시간을
+              1시간에서 5분으로 단축하였습니다
+              <br /> 사용자 인터뷰를 바탕으로 문제를 발견하며, 서비스의 완성도를
+              높이는 개발을 노력합니다 <br /> Figma와 slack, jira를 통해
+              협업합니다. 기술 경험이나 공부 내용을&nbsp;
               <a
                 // className="click_text"
                 href="https://www.instagram.com/fe_developer_wony"
