@@ -10,6 +10,7 @@ export default function LeftContent() {
         <TextGothicA1BigTitle>
           <h1 className="text_gothic_a1_big_title_inner">Career</h1>
         </TextGothicA1BigTitle>
+
         <div className="content_block">
           <div className="content_block_title">
             <TextDoHyeonSmallTitle>
@@ -234,6 +235,134 @@ export default function LeftContent() {
                   <p className="skill_text">
                     javascript, next, scss, context api
                   </p>
+                </div>
+              </TextBlackHanSansContent>
+            </div>
+          </div>
+        </div>
+        <div className="content_block">
+          <div className="content_block_title">
+            <TextDoHyeonSmallTitle>
+              <h2 className="text_dohyeon_small_title_inner">차카다</h2>
+            </TextDoHyeonSmallTitle>
+            <TextBlackHanSansContent>
+              <ul className="text_box_ul">
+                <li className="content_li">
+                  2025.09 ~ 현재 / RPA 개발
+                  {/* <span>•</span> 2022.02 ~ 2024.11 <br /> */}
+                  {/* (정규직) */}
+                </li>
+                {/* <li className="content_li">
+                  <span>•</span> 2024.12 ~ 2025.05 <br />
+                  (계약직)
+                </li> */}
+              </ul>
+            </TextBlackHanSansContent>
+          </div>
+          <div className="content_block_content">
+            <div className="text_box">
+              <TextDoHyeonSmallTitle>
+                <div className="project_header">
+                  <h2 className="text_dohyeon_small_title_inner">GMB KOREA</h2>
+                  <TextBlackHanSansContent>
+                    <p className="project_date">2025.10 ~ 진행 중</p>
+                  </TextBlackHanSansContent>
+                </div>
+              </TextDoHyeonSmallTitle>
+              <TextBlackHanSansContent>
+                <p>업무 자동화 예외 처리 및 데이터 안정성 개선</p>
+              </TextBlackHanSansContent>
+              <TextBlackHanSansContent>
+                <div className="text_box">
+                  <ul className="text_box_ul">
+                    {/* <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        배터리 생산 기기의 데이터를 차트로 시각화 하여
+                      </span>
+                    </li> */}
+                    <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        거래명세서 자동 처리 과정에서 발생하는 파일 누락 및 금액
+                        불일치 문제를 사전에 분류·처리하는 예외 로직 설계
+                      </span>
+                    </li>
+
+                    <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        공유 폴더 파일이 그룹웨어 데이터와 매칭되지 않을 경우
+                        자동 스킵 처리하여 전체 프로세스 중단 방지
+                      </span>
+                    </li>
+                    <br />
+
+                    <li className="content_li">
+                      거래명세서 금액과 그룹웨어 데이터 간 불일치 발생 시 문제
+                      데이터를 별도 폴더로 분리 관리하여 자동화 실패 확률 감소
+                    </li>
+                    <br />
+                  </ul>
+                </div>
+              </TextBlackHanSansContent>
+            </div>
+            <div className="text_box">
+              <TextDoHyeonSmallTitle>
+                <div className="project_header">
+                  <h2 className="text_dohyeon_small_title_inner">
+                    KAKAO Mobility
+                  </h2>
+                  <TextBlackHanSansContent>
+                    <p className="project_date">2026.01 ~ 진행 중</p>
+                  </TextBlackHanSansContent>
+                </div>
+              </TextDoHyeonSmallTitle>
+              <TextBlackHanSansContent>
+                <p>결제 데이터 가공 및 관리 효율 개선</p>
+              </TextBlackHanSansContent>
+              <TextBlackHanSansContent>
+                <div className="text_box">
+                  <ul className="text_box_ul">
+                    {/* <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        배터리 생산 기기의 데이터를 차트로 시각화 하여
+                      </span>
+                    </li> */}
+                    <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        주차장 결제 사이트의 결제 내역 데이터를 자동 수집하고,
+                        다운로드된 엑셀 파일을 데이터 테이블 형식으로 변환,
+                        마스터 파일 구조에 맞게 가공
+                      </span>
+                    </li>
+
+                    <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        결제 내역 데이터와 카카오 모빌리티 내부 관리 파일을
+                        대조하여 날짜 / 고유 코드 / 주차장명 / 이용 상품권 /
+                        가격 기준의 데이터 구조를 설계
+                      </span>
+                    </li>
+                    <li className="content_li">
+                      <span>•</span>
+                      <span>
+                        결제 내역 추적을 위해 가공된 데이터 테이블을 별도의 엑셀
+                        파일로 작성하게 하여 사용자 관리 편리성 향상
+                      </span>
+                    </li>
+
+                    <br />
+
+                    <li className="content_li">
+                      거래명세서 금액과 그룹웨어 데이터 간 불일치 발생 시 문제
+                      데이터를 별도 폴더로 분리 관리하여 자동화 실패 확률 감소
+                    </li>
+                    <br />
+                  </ul>
                 </div>
               </TextBlackHanSansContent>
             </div>
