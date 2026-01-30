@@ -248,7 +248,7 @@ export default function LeftContent() {
             <TextBlackHanSansContent>
               <ul className="text_box_ul">
                 <li className="content_li">
-                  2025.09 ~ 현재 / RPA 개발
+                  2025.09 ~ 현재 <br /> RPA 개발
                   {/* <span>•</span> 2022.02 ~ 2024.11 <br /> */}
                   {/* (정규직) */}
                 </li>
