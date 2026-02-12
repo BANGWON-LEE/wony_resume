@@ -19,19 +19,22 @@
 .text_gothic_a1_big_title {
   font-family: 'Gothic A1', sans-serif;
   text-align: left;
-  font-size: 0.8em;
-  line-height: 1rem;
-  margin: 1.3em 0;
-  //   font-size: 0.4em;
+
+  font-size: 1.4rem; // 고정된 기준
+  line-height: 1.4;
+  margin: 1.3rem 0;
+
   @media (max-width: 768px) {
-    font-size: 1em;
+    font-size: 1.2rem;
     width: 100%;
   }
+
   &_inner {
     font-weight: 900;
-    line-height: 1em;
+    line-height: 1.2;
+
     @media (max-width: 768px) {
-      font-size: 1em;
+      font-size: 1rem;
       display: grid;
     }
   }
@@ -164,15 +167,18 @@
 }
 
 .study_link {
-  // display: flex;
-  margin-left: 14px;
-  width: 9em;
+  margin-left: 0.875rem; // 14px → rem 변환
+  width: 9rem; // em → rem 변경
+
   display: flex;
   justify-content: space-between;
+  align-items: center; // 세로 정렬 안정화
 }
 
 .click_dir {
   margin-left: 0.5rem;
   font-weight: 900;
   color: coral;
+
+  line-height: 1.2; // OS 차이 줄이기
 }
