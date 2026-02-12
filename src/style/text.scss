@@ -1,3 +1,33 @@
+/* ============================= */
+/* Global Font & OS Normalizing */
+/* ============================= */
+
+html {
+  font-size: 16px; /* rem 기준 통일 */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family:
+    'Gothic A1',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Noto Sans KR',
+    sans-serif;
+
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+
+  /* macOS / Windows 폰트 렌더링 보정 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .text_dohyeon_small_title {
   font-family: 'Do Hyeon', sans-serif;
   font-weight: normal;
