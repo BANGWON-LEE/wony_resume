@@ -56,7 +56,7 @@ function App() {
           <Analytics />
           <TextGothicA1BigTitle>
             <h1 className="text_gothic_a1_big_title_inner">
-              데이터 시각화를 연구하는, 프론트엔드 개발자
+              데이터 시각화를 연구하는, 이방원
             </h1>
             {/* <h1 className="text_gothic_a1_big_title_inner">
               프론트엔드 개발자 이방원입니다.
