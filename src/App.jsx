@@ -134,7 +134,7 @@ function App() {
                         javascript, typescript, react, next
                       </p>
                       <p className="skill_text another_skill_text">
-                        recoil, redux
+                        recoil, redux, zustand, TanStack Query
                       </p>
                       <p className="skill_text">html, css, scss, tailwindcss</p>
                       <p className="skill_text another_skill_text">
