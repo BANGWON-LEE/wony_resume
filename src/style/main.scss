@@ -53,6 +53,8 @@ a {
 .info_container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin-top: 0.8rem;
 
   @media (max-width: 768px) {
     display: grid;
@@ -65,11 +67,22 @@ a {
   }
 }
 
+.my_info_block {
+  width: 47.5%;
+  height: 100%;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
 .my_info_box {
   // position: absolute;
-  display: grid;
-  float: right;
-  height: 65%;
+  // display: grid;
+  display: flex;
+  // float: right;
+  justify-content: space-between;
+  // height: 65%;
+  height: 100%;
   right: 0px;
   // width: 56%;
   width: 90%;
@@ -86,6 +99,7 @@ a {
 
   &_inner {
     display: flex;
+    margin: 0.5rem 0 0.5rem 0;
     justify-content: space-between;
     @media (max-width: 768px) {
       font-size: 0.7em;
@@ -155,12 +169,31 @@ a {
 
 .skill_box {
   // width: 408px;
-  width: 90%;
+  width: 47.5%;
   @media (max-width: 768px) {
     width: 100%;
   }
   // display: grid;
   // align-items: last baseline;
+}
+
+.my_info_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media (max-width: 768px) {
+    display: grid;
+    margin: 0.8em auto;
+    width: 100%;
+    position: relative;
+    word-break: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+
+  .info_inner_box {
+    // display: grid;
+  }
 }
 
 .skill_container {
