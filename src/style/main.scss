@@ -91,23 +91,39 @@ a {
   @media (max-width: 768px) {
     margin: 0.8em auto;
     width: 100%;
+    font-size: 12px;
     position: relative;
     word-break: break-word;
     white-space: normal;
     overflow-wrap: break-word;
+    line-height: 1rem;
+  }
+
+  .text_box {
+    width: 100%;
+  }
+
+  a {
+    word-break: break-all;
   }
 
   &_inner {
     display: flex;
     margin: 0.5rem 0 0.5rem 0;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+
     @media (max-width: 768px) {
-      font-size: 0.7em;
+      font-size: 12px;
+      line-height: 1rem;
     }
 
     .click_dir {
       margin-left: 0.5rem;
       font-weight: 900;
+      font-size: 0.65rem;
       color: coral;
     }
   }

@@ -209,7 +209,11 @@ body {
 .click_dir {
   margin-left: 0.5rem;
   font-weight: 900;
+  font-size: 0.65rem;
   color: coral;
 
   line-height: 1.2; // OS 차이 줄이기
+  @media (max-width: 768px) {
+    font-size: 0.65rem;
+  }
 }
