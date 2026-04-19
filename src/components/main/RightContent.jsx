@@ -259,7 +259,8 @@ export default function RightContent() {
                     <li className="content_li">
                       <span>•</span>
                       <span>
-                        REST API 응답 제한 분석 후 과거 데이터 탐색 범위 확장{' '}
+                        REST API 응답 제한 분석 후 과거 데이터 탐색 범위
+                        확장{' '}
                       </span>
                     </li>
                     <li className="content_li">
@@ -381,6 +382,25 @@ export default function RightContent() {
                         T map API 좌표 기반 네이버 지도 마커 표시 기능 구현 시,
                         요청 중 progress UX와 인터랙션 제어를 적용하여 연속
                         클릭으로 인한 UI 깨짐 문제 해결
+                      </span>
+                    </li>
+                    <li className="content_li">
+                      <span>•</span>{' '}
+                      <span>
+                        watchPosition 객체를 사용하여, 사용자의 위치가 변경될
+                        때마다 실시간으로 좌표를 수신하고 지도에 반영하는 기능
+                        구현
+                      </span>
+                    </li>
+                    <li className="content_li">
+                      <span>•</span>{' '}
+                      <span>
+                        마커와 polyLine이 동일한 함수에서 요청 응답이 되어
+                        watchPosition을 통해 수신되는 좌표값에 따라 polyLine
+                        경로도 바뀌어 문제가 됨 따라서, 마커와 polyLine을 각각의
+                        독립된 함수에서 요청 응답이 되도록 구조를 변경하여,
+                        watchPosition을 통해 수신되는 좌표값 업데이트에 따라
+                        polyLine 경로는 유지, 유저 위치 마커만 변경되도록 개선
                       </span>
                     </li>
                   </ul>
