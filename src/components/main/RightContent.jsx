@@ -280,9 +280,7 @@ export default function RightContent() {
         <div className="content_block">
           <div className="content_block_title">
             <TextDoHyeonSmallTitle>
-              <h2 className="text_dohyeon_small_title_inner">
-                myPlan <br /> (개발 중)
-              </h2>
+              <h2 className="text_dohyeon_small_title_inner">myPlan</h2>
             </TextDoHyeonSmallTitle>
             <p className="skill_text small_size">
               개인 프로젝트 / 25년 11월 25일 시작
@@ -333,8 +331,8 @@ export default function RightContent() {
                     <li className="content_li">
                       <span>•</span>
                       <span>
-                        naver map api와 T map api를 사용하여, 목적 기반 자동
-                        루트 추천 서비스 개발 중
+                        모바일 환경에서 사용자의 현재 위치를 기반, naver map
+                        api와 T map api를 사용하여, 목적지 자동 루트 추천 서비스
                       </span>
                     </li>
 
