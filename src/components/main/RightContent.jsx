@@ -286,7 +286,8 @@ export default function RightContent() {
               개인 프로젝트 / 25년 11월 25일 시작
             </p>
             <p className="skill_text small_size">
-              typescript, next, naver map api, T map api
+              typescript, next, tanstack query, zustand, naver map api, t map
+              api
             </p>
             <p className="my_info_box_inner">
               <a
