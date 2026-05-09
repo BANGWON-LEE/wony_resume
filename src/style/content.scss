@@ -47,6 +47,7 @@
 
 .content_li {
   display: flex;
+  margin-bottom: 7px;
   @media (max-width: 768px) {
     // display: grid;
     flex-wrap: nowrap;
