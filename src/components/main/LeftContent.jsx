@@ -55,10 +55,7 @@ export default function LeftContent() {
               </TextDoHyeonSmallTitle>
               <TextBlackHanSansContent>
                 <p>
-                  공장 현장 작업자(프로그램 사용자)가 프로그램을 사용하여 작업
-                  내용을 기록하도록 하는 프로젝트
-                  <br />
-                  공장의 기기 상태 데이터를 차트로 시각화 하는 업무 담당
+                  스마트 팩토리 솔루션의 실시간 데이터 시각화 모듈 개발 담당
                 </p>
               </TextBlackHanSansContent>
               <TextBlackHanSansContent>
@@ -88,22 +85,23 @@ export default function LeftContent() {
                     <li className="content_li">
                       <span>•</span>
                       <span>
-                        기존 1~2초 주기 API 폴링 방식을 MQTT 프로토콜을 도입하여
-                        데이터 발생 시에만 실시간 응답 받는 구조로 변경.
-                        <br />
-                        <strong>
-                          불필요한 요청을 없애고 필요한 응답만 받도록 개선
-                        </strong>
+                        1~2초 주기 폴링 → MQTT 이벤트 기반으로 전환하여 불필요한
+                        요청을 없애고 필요한 응답만 받도록 개선
                       </span>
                     </li>
                     <br />
                     <li className="content_li">
                       <span>•</span>
                       <span>
-                        실시간 데이터 구현에 있어서 ChartJS가 ApexChart보다 초기
-                        렌더링 속도 및 성능 향상에 이점이 있음을 파악,
-                        <br /> LCP를 <strong>21.3초 → 4.0초</strong>, FCP를
-                        <strong>2.6초 → 0.2초</strong>로 대폭 개선.
+                        ApexChart vs Chart.js 벤치마크 수행 후 Chart.js
+                        마이그레이션,{' '}
+                        <strong>
+                          LCP 21.3초→4.0초(−81%), FCP 2.6초→0.2초(−92%) 개선
+                        </strong>
+                        {/* 실시간 데이터 구현에 있어서 ChartJS가 ApexChart보다 초기
+                        렌더링 속도 및 성능 향상에 이점이 있음을 파악, */}
+                        {/* <br /> LCP를 <strong>21.3초 → 4.0초</strong>, FCP를
+                        <strong>2.6초 → 0.2초</strong>로 대폭 개선. */}
                       </span>
                     </li>
 
@@ -124,8 +122,8 @@ export default function LeftContent() {
                       <span>*</span>
                       <span>
                         <strong>
-                          차트 개발을 통해, 공장의 작업자들이 기기의 오류를
-                          실시간으로 점검할 수 있도록 기여
+                          실시간 시각화 대시보드 구축 → 기기 이상 감지하여
+                          빠르게 오류 대응하도록 함
                         </strong>
                       </span>
                     </li>
@@ -214,21 +212,16 @@ export default function LeftContent() {
                     <li className="content_li">
                       <span>•</span>
                       <span>
-                        사용자가 게임 판매점을 찾을 수 있도록 좌표를 사용하여
-                        데이터를 Kakao Map API로 시각화.
+                        Kakao Map API 연동으로 전국 판매점 위치 시각화 기능 개발
                       </span>
                     </li>
                     <br />
                     <li className="content_li">
                       <span>•</span>
                       <span>
-                        게시판 글 작성 및 수정 페이지에서 사용자가 이미지를
-                        삽입하여 게시글을 작성하도록 React-Quill을 활용한 이미지
-                        업로드 기능 개발. React-Quill 이미지 업로드 시, 인라인
-                        스타일(style 속성)이 서버에 저장/렌더링 과정에서
-                        적용되지 않는 이슈 분석 에디터 콘텐츠에 인라인 스타일을
-                        작성하지 않고, 렌더링 단계에서 CSS 선택자(.editor &gt;
-                        img)를 사용하여 스타일 적용
+                        React-Quill 이미지 업로드 시 인라인 스타일 미적용 이슈.
+                        → 렌더링 단계에서 CSS 선택자 기반 스타일 적용 방식으로
+                        전환. → 이미지 스타일 정상 렌더링
                       </span>
                     </li>
                   </ul>

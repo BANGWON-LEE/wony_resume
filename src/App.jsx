@@ -67,7 +67,7 @@ function App() {
           <div className="header_inner_left">
             <TextBlackHanSansContent>
               {/* <p className="text_black_hansans_content_inner"> */}
-              문제를 관찰하고, 데이터와 UX 관점에서 해결해온 프론트엔드
+              실시간 데이터 시각화와 성능 최적화에 강점을 가진 프론트엔드
               개발자입니다.
               <br /> 스마트 팩토리 프로젝트에서 실시간 데이터 시각화를 통해 기기
               상태를 파악할 수 있는 환경을 구축하고, 업무 기록 및 문서화 시간을
@@ -136,7 +136,7 @@ function App() {
                       <p className="skill_text another_skill_text">
                         recoil, redux, zustand, TanStack Query
                       </p>
-                      <p className="skill_text">html, css, scss, tailwindcss</p>
+                      <p className="skill_text">scss, tailwindcss</p>
                       <p className="skill_text another_skill_text">
                         firebase-auth, firebase-firestore
                       </p>
