@@ -332,25 +332,9 @@ export default function RightContent() {
                     <li className="content_li">
                       <span>•</span>
                       <span>
-                        모바일 환경에서 사용자의 현재 위치를 기반, naver map
-                        api와 T map api를 사용하여, 목적지 자동 루트 추천 서비스
-                      </span>
-                    </li>
-
-                    <li className="content_li">
-                      <span>•</span>
-                      <span>
-                        현재 위치를 기준으로 병원 / 약국 / 편의점 / 공중화장실
-                        등 목적을 선택하면 AI가 가장 적합한 최적 루트 1개를 1초
-                        만에 추천해주는 가벼운 라이트 서비스
-                      </span>
-                    </li>
-                    <li className="content_li">
-                      <span>•</span>
-                      <span>
-                        {' '}
-                        네이버 지도 API의 네트워크 기반 현재 위치 감지를 활용한
-                        좌표 수신 및 지도 렌더링 구현
+                        마이플랜은 현재 위치 기반 루트 추천 서비스 (Naver Map +
+                        T Map API 연동, 병원/약국 등 목적지 1초 내 경로
+                        제공)입니다
                       </span>
                     </li>
                     <li className="content_li">
@@ -371,51 +355,26 @@ export default function RightContent() {
                     <li className="content_li">
                       <span>•</span>{' '}
                       <span>
-                        T map API 좌표 기반 네이버 지도 마커 표시 기능 구현 시,
-                        요청 중 progress UX와 인터랙션 제어를 적용하여 연속
-                        클릭으로 인한 UI 깨짐 문제 해결
+                        watchPosition 좌표 갱신 시 경로(polyLine) 재렌더링 이슈
+                        <br />→ 기존에 하나로 구성된 마커/경로 렌더링 로직을
+                        분리하여 경로 유지 + 사용자 위치 마커만 갱신
+                        <br /> → 불필요한 api 요청 및 렌더링 제거
                       </span>
                     </li>
                     <li className="content_li">
                       <span>•</span>{' '}
                       <span>
-                        watchPosition 객체를 사용하여, 사용자의 위치가 변경될
-                        때마다 실시간으로 좌표를 수신하고 지도에 반영하는 기능
-                        구현
+                        경로 API N회 반복 호출 → 서버에 단일 요청 구조로 개선 →
+                        CLS 0.095→0.000, Speed Index 8.3%↑, 네트워크 요청 수
+                        6.5%↓
                       </span>
                     </li>
                     <li className="content_li">
                       <span>•</span>{' '}
                       <span>
-                        마커와 polyLine이 동일한 함수에서 요청 응답이 되어
-                        watchPosition을 통해 수신되는 좌표값에 따라 polyLine
-                        경로도 바뀌어 문제가 됨 따라서, 마커와 polyLine을 각각의
-                        독립된 함수에서 요청 응답이 되도록 구조를 변경하여,
-                        watchPosition을 통해 수신되는 좌표값 업데이트에 따라
-                        polyLine 경로는 유지, 유저 위치 마커만 변경되도록 개선
-                      </span>
-                    </li>
-                    <li className="content_li">
-                      <span>•</span>{' '}
-                      <span>
-                        경로 API가 장소 수만큼 클라이언트에서 반복 호출되어
-                        브라우저 요청 부담과 네트워크 요청 수가 증가하는 문제가
-                        있었고, 이를 서버 API에서 경로 데이터를 구조화해 단일
-                        요청으로 처리하도록 개선하여 CLS 0.095→0.000, Speed
-                        Index 약 8.3%, 네트워크 요청 수 약 6.5% 개선을 달성
-                      </span>
-                    </li>
-                    <li className="content_li">
-                      <span>•</span>{' '}
-                      <span>
-                        경로 조회 API 호출 시마다 지도 객체를 재생성하던 구조를
-                        개선하기 위해 초기 지도 객체를 한 번만 생성하고
-                        유지하도록 변경했으며, 이후 API 요청 시 Marker와
-                        Polyline 객체만 생성·갱신하여 Ref로 관리하는 구조를
-                        구현했습니다. 이를 통해 지도 재생성 없이 경로와 마커를
-                        갱신할 수 있도록 개선한 결과, Lighthouse 기준 TBT를
-                        494ms → 395ms(약 20% 개선), Speed Index를 5.69초 →
-                        4.31초(약 24% 개선) 로 단축
+                        지도 객체 매 호출마다 재생성 → 초기 1회 생성 후 Ref로
+                        Marker/Polyline만 갱신하는 구조로 변경 → TBT
+                        494ms→395ms(−20%), Speed Index 5.69s→4.31s(−24%)
                       </span>
                     </li>
                   </ul>

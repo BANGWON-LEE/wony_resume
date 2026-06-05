@@ -202,8 +202,7 @@ export default function LeftContent() {
               </TextDoHyeonSmallTitle>
               <TextBlackHanSansContent>
                 <span>
-                  AI로 스포츠 게임의 승패를 예측하여 유저에게 추천하는 기능이
-                  핵심인 프로젝트.
+                  AI 기반 스포츠 승패 예측 서비스, 프론트엔드 전담 개발
                 </span>
               </TextBlackHanSansContent>
               <TextBlackHanSansContent>
@@ -215,7 +214,7 @@ export default function LeftContent() {
                         Kakao Map API 연동으로 전국 판매점 위치 시각화 기능 개발
                       </span>
                     </li>
-                    <br />
+
                     <li className="content_li">
                       <span>•</span>
                       <span>
