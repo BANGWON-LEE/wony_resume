@@ -333,8 +333,7 @@ export default function RightContent() {
                       <span>•</span>
                       <span>
                         마이플랜은 현재 위치 기반 루트 추천 서비스 (Naver Map +
-                        T Map API 연동, 병원/약국 등 목적지 1초 내 경로
-                        제공)입니다
+                        T Map API 연동, 병원/약국 등 목적지 1초 내 경로 제공)
                       </span>
                     </li>
                     <li className="content_li">
