@@ -11,92 +11,6 @@ export default function MyProjectSection() {
       <div className="content_block">
         <div className="content_block_title">
           <TextDoHyeonSmallTitle>
-            <h2 className="text_dohyeon_small_title_inner">
-              upbit chart clone 프로젝트
-            </h2>
-          </TextDoHyeonSmallTitle>
-          <p className="skill_text small_size">
-            개인 프로젝트 / 25.07.21 ~ 25.11.20 완료
-          </p>
-          <p className="skill_text small_size">
-            javascript, react, chartJS, upbit api
-          </p>
-          <span className="my_info_box_inner">
-            <a
-              className="click_text"
-              href="https://github.com/BANGWON-LEE/financial-chart"
-              target="_blank"
-            >
-              github
-            </a>
-            <a
-              href="https://github.com/BANGWON-LEE/financial-chart"
-              target="_blank"
-              className="click_dir"
-            >
-              click!
-            </a>
-            {/* <span>qkddnjs31@gmail.com</span> */}
-          </span>
-        </div>
-        <div className="content_block_content">
-          <div className="text_box">
-            <TextBlackHanSansContent>
-              <div className="text_box">
-                <ul className="text_box_ul">
-                  <li className="content_li">
-                    <span>•</span>
-                    <span>
-                      chart js를 사용해 upbit의 socket으로 받아오는 데이터
-                      시각화
-                    </span>
-                  </li>
-
-                  <li className="content_li">
-                    <span>•</span>
-                    <span>
-                      업비트에서 코인 정보를 보여주는 flow를 연구하고 클론 하는
-                      것을 목표로 함
-                    </span>
-                  </li>
-                  <li className="content_li">
-                    <span>•</span>
-                    <span>
-                      Chart.js Financial Chart를 활용한 Candlestick 시각화 및 축
-                      스케일 직접 설계{' '}
-                    </span>
-                  </li>
-                  <li className="content_li">
-                    <span>•</span>
-                    <span>
-                      {' '}
-                      차트 focus·패닝·휠 이벤트에 따른 렌더링 제어로 실시간 UX
-                      안정화{' '}
-                    </span>
-                  </li>
-                  <li className="content_li">
-                    <span>•</span>
-                    <span>
-                      REST API 응답 제한 분석 후 과거 데이터 탐색 범위 확장{' '}
-                    </span>
-                  </li>
-                  <li className="content_li">
-                    <span>•</span>
-                    <span>
-                      실시간/과거 데이터 분리 저장 및 병합 처리로 데이터 정합성
-                      유지{' '}
-                    </span>
-                  </li>
-                </ul>
-              </div>
-            </TextBlackHanSansContent>
-          </div>
-        </div>
-      </div>
-      <br />
-      <div className="content_block">
-        <div className="content_block_title">
-          <TextDoHyeonSmallTitle>
             <h2 className="text_dohyeon_small_title_inner">myPlan</h2>
           </TextDoHyeonSmallTitle>
           <p className="skill_text small_size">
@@ -197,6 +111,93 @@ export default function MyProjectSection() {
           </div>
         </div>
       </div>
+      <br />
+      <div className="content_block">
+        <div className="content_block_title">
+          <TextDoHyeonSmallTitle>
+            <h2 className="text_dohyeon_small_title_inner">
+              upbit chart clone 프로젝트
+            </h2>
+          </TextDoHyeonSmallTitle>
+          <p className="skill_text small_size">
+            개인 프로젝트 / 25.07.21 ~ 25.11.20 완료
+          </p>
+          <p className="skill_text small_size">
+            javascript, react, chartJS, upbit api
+          </p>
+          <span className="my_info_box_inner">
+            <a
+              className="click_text"
+              href="https://github.com/BANGWON-LEE/financial-chart"
+              target="_blank"
+            >
+              github
+            </a>
+            <a
+              href="https://github.com/BANGWON-LEE/financial-chart"
+              target="_blank"
+              className="click_dir"
+            >
+              click!
+            </a>
+            {/* <span>qkddnjs31@gmail.com</span> */}
+          </span>
+        </div>
+        <div className="content_block_content">
+          <div className="text_box">
+            <TextBlackHanSansContent>
+              <div className="text_box">
+                <ul className="text_box_ul">
+                  <li className="content_li">
+                    <span>•</span>
+                    <span>
+                      chart js를 사용해 upbit의 socket으로 받아오는 데이터
+                      시각화
+                    </span>
+                  </li>
+
+                  <li className="content_li">
+                    <span>•</span>
+                    <span>
+                      업비트에서 코인 정보를 보여주는 flow를 연구하고 클론 하는
+                      것을 목표로 함
+                    </span>
+                  </li>
+                  <li className="content_li">
+                    <span>•</span>
+                    <span>
+                      Chart.js Financial Chart를 활용한 Candlestick 시각화 및 축
+                      스케일 직접 설계{' '}
+                    </span>
+                  </li>
+                  <li className="content_li">
+                    <span>•</span>
+                    <span>
+                      {' '}
+                      차트 focus·패닝·휠 이벤트에 따른 렌더링 제어로 실시간 UX
+                      안정화{' '}
+                    </span>
+                  </li>
+                  <li className="content_li">
+                    <span>•</span>
+                    <span>
+                      REST API 응답 제한 분석 후 과거 데이터 탐색 범위 확장{' '}
+                    </span>
+                  </li>
+                  <li className="content_li">
+                    <span>•</span>
+                    <span>
+                      실시간/과거 데이터 분리 저장 및 병합 처리로 데이터 정합성
+                      유지{' '}
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </TextBlackHanSansContent>
+          </div>
+        </div>
+      </div>
+      <br />
     </section>
   )
 }

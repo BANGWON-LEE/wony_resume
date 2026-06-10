@@ -290,6 +290,12 @@ export default function CareerSection() {
                     데이터를 별도 폴더로 분리 관리하여 자동화 실패 확률 감소
                   </li>
                   <br />
+
+                  <li className="content_li">
+                    거래명세서 금액과 그룹웨어 데이터 간 불일치 발생 시 문제
+                    데이터를 별도 폴더로 분리 관리하여 자동화 실패 확률 감소
+                  </li>
+                  <br />
                 </ul>
               </div>
             </TextBlackHanSansContent>
@@ -325,7 +331,6 @@ export default function CareerSection() {
                       파일 구조에 맞게 가공
                     </span>
                   </li>
-
                   <li className="content_li">
                     <span>•</span>
                     <span>
@@ -341,12 +346,7 @@ export default function CareerSection() {
                       파일로 작성하게 하여 사용자 관리 편리성 향상
                     </span>
                   </li>
-                  <br />
-                  <li className="content_li">
-                    거래명세서 금액과 그룹웨어 데이터 간 불일치 발생 시 문제
-                    데이터를 별도 폴더로 분리 관리하여 자동화 실패 확률 감소
-                  </li>
-                  <br />
+                  <br />{' '}
                 </ul>
               </div>
             </TextBlackHanSansContent>

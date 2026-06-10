@@ -3,7 +3,7 @@ import StudySection from '../section/StudySection'
 
 export default function RightContent() {
   return (
-    <div className="main_box">
+    <div className="resume_column resume_column_secondary">
       <MyProjectSection />
       <StudySection />
     </div>

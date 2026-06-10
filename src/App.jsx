@@ -52,8 +52,8 @@ function App() {
           PDF로 저장
         </button>
       </div> */}
-      <div className="total_block" id="total_box">
-        <header>
+      <div className="total_block resume_shell" id="total_box">
+        <header className="resume_header">
           <Analytics />
           <TextGothicA1BigTitle>
             <h1 className="text_gothic_a1_big_title_inner">
@@ -64,7 +64,7 @@ function App() {
             </h1> */}
           </TextGothicA1BigTitle>
         </header>
-        <div className="header_my_info">
+        <div className="header_my_info resume_intro">
           <div className="header_inner_left">
             <TextBlackHanSansContent>
               {/* <p className="text_black_hansans_content_inner"> */}
@@ -114,11 +114,11 @@ function App() {
         </div>
 
         {/* <main className="main_block"> */}
-        <main className="main_box">
+        <main className="resume_main">
           {/* <TextBlackHanSansContent> */}
           {/* <div className="text_box"> */}
 
-          <div className="info_container">
+          <div className="info_container resume_summary">
             <SkillSection />
             <InfoSection />
           </div>
