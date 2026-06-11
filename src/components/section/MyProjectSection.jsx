@@ -93,15 +93,15 @@ export default function MyProjectSection() {
                   <li className="content_li">
                     <span>•</span>{' '}
                     <span>
-                      경로 API N회 반복 호출 → 서버에 단일 요청 구조로 개선 →
+                      경로 API N회 반복 호출 ⇒ 서버에 단일 요청 구조로 개선 ⇒
                       CLS 0.095→0.000, Speed Index 8.3%↑, 네트워크 요청 수 6.5%↓
                     </span>
                   </li>
                   <li className="content_li">
                     <span>•</span>{' '}
                     <span>
-                      지도 객체 매 호출마다 재생성 → 초기 1회 생성 후 Ref로
-                      Marker/Polyline만 갱신하는 구조로 변경 → TBT
+                      지도 객체 매 호출마다 재생성 ⇒ 초기 1회 생성 후 Ref로
+                      Marker/Polyline만 갱신하는 구조로 변경 ⇒ TBT
                       494ms→395ms(−20%), Speed Index 5.69s→4.31s(−24%)
                     </span>
                   </li>
