@@ -67,15 +67,11 @@ function App() {
         <div className="header_my_info resume_intro">
           <div className="header_inner_left">
             <TextBlackHanSansContent>
-              {/* <p className="text_black_hansans_content_inner"> */}
-              실시간 데이터 시각화와 성능 최적화에 강점을 가진 프론트엔드
-              개발자입니다.
-              <br /> 스마트 팩토리 프로젝트에서 실시간 데이터 시각화를 통해 기기
-              상태를 파악할 수 있는 환경을 구축하고, 업무 기록 및 문서화 시간을
-              1시간에서 5분으로 단축하였습니다.
-              <br /> 사용자 인터뷰를 바탕으로 문제를 발견하며, 서비스의 완성도를
-              높이는 개발을 노력합니다 <br /> Figma와 slack, jira를 통해
-              협업합니다. 기술 경험이나 공부 내용을&nbsp;
+               실시간 데이터를 지도·차트로 시각화하고 성능 병목을 수치로 개선해 온 프론트엔드 개발자입니다.  스마트 팩토리 실시간 관제 대시보드에서 <br/>LCP를 21.3초→4.0초(−81%)로 단축했고, 
+사용자와의 인터뷰를 통해 업무 기록 및 문서화 시간을 1시간에 5분으로 단축하였습니다
+<br/>
+Naver·T Map 등 지도 API로 위치 기반 서비스, 마이플랜을 설계·구축 최적화 경험이 있습니다. 
+기술 경험이나 공부 내용은 &nbsp;
               <a
                 // className="click_text"
                 href="https://www.instagram.com/fe_developer_wony"
@@ -83,7 +79,7 @@ function App() {
               >
                 sns(인스타그램)
               </a>
-              에 기록하고 있습니다
+              에 기록합니다
               {/* </p> */}
               {/* <p className="text_black_hansans_content_inner">
                 스마트 팩토리 프로젝트에서, 공장 기기의 데이터를 차트로 시각화

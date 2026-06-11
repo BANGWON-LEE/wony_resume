@@ -64,10 +64,10 @@ li {
 
 .total_block,
 .resume_shell {
-  width: min(100%, 1440px);
+  width: min(100%, 1840px);
   min-width: 320px;
   margin: 0 auto;
-  padding: 3rem clamp(1.25rem, 4vw, 4rem);
+  padding: 3rem clamp(1rem, 3vw, 4rem);
   background: #ffffff;
   box-shadow: 0 24px 70px rgba(27, 38, 55, 0.12);
 }
