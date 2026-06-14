@@ -45,10 +45,10 @@ export default function CareerSection() {
             <TextDoHyeonSmallTitle>
               <div className="project_header">
                 <h2 className="text_dohyeon_small_title_inner">
-                  스마트 팩토리
+                  스마트 팩토리 (JR에너지 솔루션)
                 </h2>
                 <TextBlackHanSansContent>
-                  <p className="project_date">2023.11 ~ 2024.08 릴리즈</p>
+                  <p className="project_date">2023.11 ~ 2024.08 1차 릴리즈</p>
                 </TextBlackHanSansContent>
               </div>
             </TextDoHyeonSmallTitle>
@@ -189,7 +189,7 @@ export default function CareerSection() {
             <TextDoHyeonSmallTitle>
               <div className="project_header">
                 <h2 className="text_dohyeon_small_title_inner">
-                  토토 프로젝트
+                  토토 프로젝트 (케이풀스)
                 </h2>
                 <TextBlackHanSansContent>
                   <p className="project_date">2022.05 ~ 2022.12</p>
@@ -256,19 +256,19 @@ export default function CareerSection() {
                 </TextBlackHanSansContent>
               </div>
             </TextDoHyeonSmallTitle>
-            <TextBlackHanSansContent>
+            {/* <TextBlackHanSansContent>
               <p>업무 자동화 예외 처리 및 데이터 안정성 개선</p>
-            </TextBlackHanSansContent>
-            <TextBlackHanSansContent>
-              <div className="text_box">
-                <ul className="text_box_ul">
-                  {/* <li className="content_li">
+            </TextBlackHanSansContent> */}
+            {/* <TextBlackHanSansContent>
+              <div className="text_box"> */}
+            {/* <ul className="text_box_ul"> */}
+            {/* <li className="content_li">
                       <span>•</span>
                       <span>
                         배터리 생산 기기의 데이터를 차트로 시각화 하여
                       </span>
                     </li> */}
-                  <li className="content_li">
+            {/* <li className="content_li">
                     <span>•</span>
                     <span>
                       거래명세서 자동 처리 과정에서 발생하는 파일 누락 및 금액
@@ -296,10 +296,10 @@ export default function CareerSection() {
                     데이터를 별도 폴더로 분리 관리하여 자동화 실패 확률 감소
                   </li>
                   <br />
-                </ul>
-              </div>
-            </TextBlackHanSansContent>
+                </ul> */}
           </div>
+          {/* </TextBlackHanSansContent>
+          </div> */}
           <div className="text_box">
             <TextDoHyeonSmallTitle>
               <div className="project_header">
@@ -312,17 +312,11 @@ export default function CareerSection() {
               </div>
             </TextDoHyeonSmallTitle>
             <TextBlackHanSansContent>
-              <p>결제 데이터 가공 및 관리 효율 개선</p>
+              <p>ERP 및 엑셀 작업 흐름 자동화 작업 진행</p>
             </TextBlackHanSansContent>
             <TextBlackHanSansContent>
-              <div className="text_box">
+              {/* <div className="text_box">
                 <ul className="text_box_ul">
-                  {/* <li className="content_li">
-                      <span>•</span>
-                      <span>
-                        배터리 생산 기기의 데이터를 차트로 시각화 하여
-                      </span>
-                    </li> */}
                   <li className="content_li">
                     <span>•</span>
                     <span>
@@ -348,7 +342,7 @@ export default function CareerSection() {
                   </li>
                   <br />{' '}
                 </ul>
-              </div>
+              </div> */}
             </TextBlackHanSansContent>
           </div>
         </div>

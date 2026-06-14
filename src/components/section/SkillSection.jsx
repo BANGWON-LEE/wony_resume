@@ -13,7 +13,7 @@ export default function SkillSection() {
           <div className="text_box">
             <div className="skill_block">
               <p className="skill_text">
-                javascript, typescript, react, next
+                javascript, typescript, react, next(App Router, Page Router)
               </p>
               <p className="skill_text another_skill_text">
                 recoil, redux, zustand, TanStack Query
