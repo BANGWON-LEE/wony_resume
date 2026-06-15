@@ -41,6 +41,16 @@ export default function InfoSection() {
               BANGWON-LEE
               <span className="click_dir">click!</span>
             </a>
+          </span>{' '}
+          <span className="my_info_box_inner">
+            링크드인 :
+            <a
+              href="https://www.linkedin.com/in/%EB%B0%A9%EC%9B%90-%EC%9D%B4-983a10201/"
+              target="_blank"
+            >
+              이방원
+              <span className="click_dir">click!</span>
+            </a>
           </span>
         </div>
       </div>

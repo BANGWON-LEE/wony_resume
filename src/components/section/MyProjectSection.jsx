@@ -11,10 +11,96 @@ export default function MyProjectSection() {
       <div className="content_block">
         <div className="content_block_title">
           <TextDoHyeonSmallTitle>
+            <h2 className="text_dohyeon_small_title_inner">
+              upbit chart clone 프로젝트
+            </h2>
+          </TextDoHyeonSmallTitle>
+          <p className="skill_text small_size">
+            개인 프로젝트 / 25.07.21 ~ 25.11.20 <br />
+            완료
+          </p>
+          <p className="skill_text small_size">
+            javascript, react, chartJS, upbit api
+          </p>
+          <span className="my_info_box_inner">
+            <a
+              className="click_text"
+              href="https://github.com/BANGWON-LEE/financial-chart"
+              target="_blank"
+            >
+              github
+            </a>
+            <a
+              href="https://github.com/BANGWON-LEE/financial-chart"
+              target="_blank"
+              className="click_dir"
+            >
+              click!
+            </a>
+            {/* <span>qkddnjs31@gmail.com</span> */}
+          </span>
+        </div>
+        <div className="content_block_content">
+          <div className="text_box">
+            <TextBlackHanSansContent>
+              <div className="text_box">
+                <ul className="text_box_ul">
+                  <li className="content_li">
+                    <span>•</span>
+                    <span>
+                      chart js를 사용해 upbit의 socket으로 받아오는 데이터
+                      시각화
+                    </span>
+                  </li>
+                  <li className="content_li">
+                    <span>•</span>
+                    <span>
+                      업비트에서 코인 정보를 보여주는 flow를 연구하고 클론 하는
+                      것을 목표로 함
+                    </span>
+                  </li>
+                  <li className="content_li">
+                    <span>•</span>
+                    <span>
+                      Chart.js Financial Chart를 활용한 Candlestick 시각화 및 축
+                      스케일 직접 설계{' '}
+                    </span>
+                  </li>
+                  <li className="content_li">
+                    <span>•</span>
+                    <span>
+                      {' '}
+                      차트 focus·패닝·휠 이벤트에 따른 렌더링 제어로 실시간 UX
+                      안정화{' '}
+                    </span>
+                  </li>
+                  <li className="content_li">
+                    <span>•</span>
+                    <span>
+                      REST API 응답 제한 분석 후 과거 데이터 탐색 범위 확장{' '}
+                    </span>
+                  </li>
+                  <li className="content_li">
+                    <span>•</span>
+                    <span>
+                      실시간/과거 데이터 분리 저장 및 병합 처리로 데이터 정합성
+                      유지{' '}
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </TextBlackHanSansContent>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div className="content_block">
+        <div className="content_block_title">
+          <TextDoHyeonSmallTitle>
             <h2 className="text_dohyeon_small_title_inner">myPlan</h2>
           </TextDoHyeonSmallTitle>
           <p className="skill_text small_size">
-            개인 프로젝트 / 25.11.25 ~ 26.05.09 1차 릴리즈
+            개인 프로젝트 / 25.11.25 ~ 26.05.09 <br /> 1차 릴리즈
           </p>
           <p className="skill_text small_size">
             typescript, next, tanstack query, zustand, naver map api, t map api
@@ -66,27 +152,14 @@ export default function MyProjectSection() {
                       Map API 연동, 병원/약국 등 목적지 1초 내 경로 제공)
                     </span>
                   </li>
-                  <li className="content_li">
-                    <span>•</span>{' '}
-                    <span>
-                      SEO 개선을 위해 Next.js Metadata API와 schema.org JSON-LD
-                      구조화 데이터를 적용하여 검색엔진과 SNS 공유 미리보기에
-                      필요한 페이지 정보를 최적화
-                    </span>
-                  </li>
-                  <li className="content_li">
-                    <span>•</span>{' '}
-                    <span>
-                      다중 목적 선택 시 병렬 장소 검색 API 요청 구조 설계
-                      (Promise.all)
-                    </span>
-                  </li>
+
                   <li className="content_li">
                     <span>•</span>
                     <span>
                       {' '}
-                      TanStack Query 캐싱과 로컬 스토리지를 활용하여 동일 위치
-                      재요청 시 발생하던 지도 렌더링 지연 문제 개선
+                      TanStack Query 캐싱과 로컬 스토리지를 활용하여 동일
+                      위치에서 재요청 시, 기존 좌표 재활용 → 모바일 브라우저에서
+                      렌더링 지연 해결 및 불필요한 지도객체 생성 방지
                     </span>
                   </li>
                   <li className="content_li">
@@ -113,90 +186,11 @@ export default function MyProjectSection() {
                       494ms→395ms(−20%), Speed Index 5.69s→4.31s(−24%)
                     </span>
                   </li>
-                </ul>
-              </div>
-            </TextBlackHanSansContent>
-          </div>
-        </div>
-      </div>
-      <br />
-      <div className="content_block">
-        <div className="content_block_title">
-          <TextDoHyeonSmallTitle>
-            <h2 className="text_dohyeon_small_title_inner">
-              upbit chart clone 프로젝트
-            </h2>
-          </TextDoHyeonSmallTitle>
-          <p className="skill_text small_size">
-            개인 프로젝트 / 25.07.21 ~ 25.11.20 완료
-          </p>
-          <p className="skill_text small_size">
-            javascript, react, chartJS, upbit api
-          </p>
-          <span className="my_info_box_inner">
-            <a
-              className="click_text"
-              href="https://github.com/BANGWON-LEE/financial-chart"
-              target="_blank"
-            >
-              github
-            </a>
-            <a
-              href="https://github.com/BANGWON-LEE/financial-chart"
-              target="_blank"
-              className="click_dir"
-            >
-              click!
-            </a>
-            {/* <span>qkddnjs31@gmail.com</span> */}
-          </span>
-        </div>
-        <div className="content_block_content">
-          <div className="text_box">
-            <TextBlackHanSansContent>
-              <div className="text_box">
-                <ul className="text_box_ul">
                   <li className="content_li">
-                    <span>•</span>
+                    <span>•</span>{' '}
                     <span>
-                      chart js를 사용해 upbit의 socket으로 받아오는 데이터
-                      시각화
-                    </span>
-                  </li>
-
-                  <li className="content_li">
-                    <span>•</span>
-                    <span>
-                      업비트에서 코인 정보를 보여주는 flow를 연구하고 클론 하는
-                      것을 목표로 함
-                    </span>
-                  </li>
-                  <li className="content_li">
-                    <span>•</span>
-                    <span>
-                      Chart.js Financial Chart를 활용한 Candlestick 시각화 및 축
-                      스케일 직접 설계{' '}
-                    </span>
-                  </li>
-                  <li className="content_li">
-                    <span>•</span>
-                    <span>
-                      {' '}
-                      차트 focus·패닝·휠 이벤트에 따른 렌더링 제어로 실시간 UX
-                      안정화{' '}
-                    </span>
-                  </li>
-                  <li className="content_li">
-                    <span>•</span>
-                    <span>
-                      REST API 응답 제한 분석 후 과거 데이터 탐색 범위 확장{' '}
-                    </span>
-                  </li>
-                  <li className="content_li">
-                    <span>•</span>
-                    <span>
-                      실시간/과거 데이터 분리 저장 및 병합 처리로 데이터 정합성
-                      유지{' '}
+                      다중 목적 선택 시 병렬 장소 검색 API 요청 구조 설계
+                      (Promise.all)
                     </span>
                   </li>
                 </ul>

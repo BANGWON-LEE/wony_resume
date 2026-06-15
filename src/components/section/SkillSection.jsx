@@ -12,16 +12,11 @@ export default function SkillSection() {
         <TextGothicA1BigTitle>
           <div className="text_box">
             <div className="skill_block">
-              <p className="skill_text">
-                javascript, typescript, react, next(App Router, Page Router)
-              </p>
+              <p className="skill_text">react, next, typescript</p>
               <p className="skill_text another_skill_text">
-                recoil, redux, zustand, TanStack Query
+                zustand, tanStack query, redux
               </p>
               <p className="skill_text">scss, tailwindcss</p>
-              <p className="skill_text another_skill_text">
-                firebase-auth, firebase-firestore
-              </p>
             </div>
           </div>
         </TextGothicA1BigTitle>

@@ -72,18 +72,17 @@ export default function CareerSection() {
                   </li>
                   <br />
                   <li className="content_li">
-                    - 사용자가 한 페이지에서 3종류 이상의 기기 상태 데이터를
-                    각각 차트로 보길 원함
-                    <br />- 기존에는 페이지에 1개의 차트, 약 700개의 데이터만
-                    시각화 됨
+                    기기 이상을 실시간으로 감지하고 운영자가 즉각 대응할 수 있는
+                    모니터링 대시보드 설계 및 개발. 복수 장비의 상태를 한
+                    화면에서 동시에 추적하는 레이아웃 구성
                   </li>
                   <br />
 
                   <li className="content_li">
                     <span>•</span>
                     <span>
-                      1~2초 주기 폴링 → MQTT 이벤트 기반으로 전환하여 불필요한
-                      요청을 없애고 필요한 응답만 받도록 개선
+                      1~2초 주기 폴링 → MQTT 이벤트 스트리밍 전환으로 실시간
+                      모니터링 정확도 향상
                     </span>
                   </li>
                   <br />
@@ -106,12 +105,8 @@ export default function CareerSection() {
                   <li className="content_li">
                     <span>•</span>
                     <span>
-                      작업 생산성을 높이기 위해 Chart.js 기반 재사용 가능한 차트
-                      컴포넌트를 개발. 차트 타입과 API 데이터만 주입하면 사용할
-                      수 있도록 설계하고, 스타일 커스터마이징 기능을 추가하여
-                      다양한 시각화 요구를 지원. 이를 통해 데이터
-                      <br />
-                      시각화 작업의 편의성에 기여
+                      Chart.js 기반 재사용 가능한 차트 컴포넌트를 개발. →
+                      팀전체가 일관성 있는 차트 UI 사용
                     </span>
                   </li>
                   <br />
@@ -312,7 +307,11 @@ export default function CareerSection() {
               </div>
             </TextDoHyeonSmallTitle>
             <TextBlackHanSansContent>
-              <p>ERP 및 엑셀 작업 흐름 자동화 작업 진행</p>
+              <p>
+                ERP·업무 흐름 자동화 진행 중. <br />
+                병행하여 프론트엔드 사이드 프로젝트(myPlan, upbit chart) 개발
+                지속
+              </p>
             </TextBlackHanSansContent>
             <TextBlackHanSansContent>
               {/* <div className="text_box">
