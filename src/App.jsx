@@ -57,8 +57,8 @@ function App() {
           <Analytics />
           <TextGothicA1BigTitle>
             <h1 className="text_gothic_a1_big_title_inner">
-              유저 편의성과 UI 컴포넌트 설계에 강점을 가진 프론트엔드 개발자,
-              이방원
+              웹 애플리케이션을 개발하며 성능 최적화에 강점을 가진 프론트엔드
+              개발자, 이방원
             </h1>
             {/* <h1 className="text_gothic_a1_big_title_inner">
               프론트엔드 개발자 이방원입니다.
@@ -68,12 +68,10 @@ function App() {
         <div className="header_my_info resume_intro">
           <div className="header_inner_left">
             <TextBlackHanSansContent>
-              B2B SaaS 솔루션 개발과 재사용 가능한 UI 컴포넌트 설계에 집중해온
-              프론트엔드 개발자입니다. 스마트팩토리 솔루션에서 초기 릴리즈부터
-              현장 피드백 반영까지 전 과정에 참여하며, 운영자가 즉각 대응할 수
-              있는 실시간 모니터링 대시보드를 설계했습니다. Chart.js 기반 재사용
-              컴포넌트를 설계해 팀 전체 UI 일관성을 높였고, LCP 81%·FCP 92% 개선
-              경험을 보유하고 있습니다.
+              React · Next.js 기반 웹 애플리케이션을 개발하며 성능 최적화(LCP
+              −81%, FCP −92%)와 재사용 가능한 컴포넌트 설계에 강점을 가진
+              프론트엔드 개발자입니다. 반응형 UI 구현과 RESTful API 연동 경험을
+              바탕으로, 사용자 문제 해결을 우선하는 관점으로 제품에 기여합니다.
               {/* </p> */}
               {/* <p className="text_black_hansans_content_inner">
                 스마트 팩토리 프로젝트에서, 공장 기기의 데이터를 차트로 시각화

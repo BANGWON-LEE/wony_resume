@@ -54,8 +54,8 @@ export default function CareerSection() {
             </TextDoHyeonSmallTitle>
             <TextBlackHanSansContent>
               <p>
-                B2B SaaS 솔루션(스마트팩토리)의 프론트엔드 개발 — 초기
-                릴리즈부터 현장 피드백 반영까지 전 과정 참여
+                B2B SaaS 스마트팩토리 솔루션의 프론트엔드 담당. 백엔드와 소통
+                API 연동 구현 및 실시간 데이터 시각화 모듈 개발.
               </p>
             </TextBlackHanSansContent>
             <TextBlackHanSansContent>

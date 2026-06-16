@@ -25,17 +25,6 @@ export default function InfoSection() {
             </a>
           </span>
           <span className="my_info_box_inner">
-            instagram :
-            <a
-              className="click_text"
-              href="https://www.instagram.com/fe_developer_wony"
-              target="_blank"
-            >
-              fe_devloper_wony
-              <span className="click_dir">click!</span>
-            </a>
-          </span>
-          <span className="my_info_box_inner">
             Git hub :
             <a href="https://github.com/BANGWON-LEE" target="_blank">
               BANGWON-LEE
