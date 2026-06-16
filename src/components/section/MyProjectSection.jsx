@@ -84,7 +84,7 @@ export default function MyProjectSection() {
                       WebSocket 연결과 차트 이벤트 리스너가 정상 해제되지 않아
                       중복 요청과 이벤트 누수가 발생 가능 이슈 → 문제를 cleanup
                       로직과 예외 처리 분리로 해결 → 실시간 차트 데이터 로딩
-                      안정성을 개선했습니다
+                      안정성을 개선
                     </span>
                   </li>
                 </ul>
