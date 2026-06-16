@@ -53,7 +53,10 @@ export default function CareerSection() {
               </div>
             </TextDoHyeonSmallTitle>
             <TextBlackHanSansContent>
-              <p>스마트 팩토리 솔루션의 실시간 데이터 시각화 모듈 개발 담당</p>
+              <p>
+                B2B SaaS 솔루션(스마트팩토리)의 프론트엔드 개발 — 초기
+                릴리즈부터 현장 피드백 반영까지 전 과정 참여
+              </p>
             </TextBlackHanSansContent>
             <TextBlackHanSansContent>
               <div className="text_box">
@@ -73,8 +76,9 @@ export default function CareerSection() {
                   <br />
                   <li className="content_li">
                     기기 이상을 실시간으로 감지하고 운영자가 즉각 대응할 수 있는
-                    모니터링 대시보드 설계 및 개발. 복수 장비의 상태를 한
-                    화면에서 동시에 추적하는 레이아웃 구성
+                    모니터링 대시보드 <br />
+                    설계 및 개발. 복수 장비의 상태를 한 화면에서 동시에 추적하는
+                    레이아웃 구성
                   </li>
                   <br />
 
@@ -114,8 +118,9 @@ export default function CareerSection() {
                     <span>*</span>
                     <span>
                       <strong>
-                        실시간 시각화 대시보드 구축 → 기기 이상 감지하여 빠르게
-                        오류 대응하도록 함
+                        실시간 시각화 대시보드 구축 → <br />
+                        기기 이상 실시간 감지 및 운영자 즉각 대응을 위한
+                        모니터링 시스템 구축
                       </strong>
                     </span>
                   </li>

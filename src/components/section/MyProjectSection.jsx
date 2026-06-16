@@ -44,21 +44,19 @@ export default function MyProjectSection() {
           <div className="text_box">
             <TextBlackHanSansContent>
               <div className="text_box">
+                <p>
+                  업비트에서 코인 정보를 보여주는 flow를 연구하고 클론 하는 것을
+                  목표로 함
+                </p>
                 <ul className="text_box_ul">
                   <li className="content_li">
                     <span>•</span>
                     <span>
-                      chart js를 사용해 upbit의 socket으로 받아오는 데이터
-                      시각화
+                      WebSocket 실시간 스트림 수신 → 수신 데이터와 REST API 과거
+                      데이터 병합 처리
                     </span>
                   </li>
-                  <li className="content_li">
-                    <span>•</span>
-                    <span>
-                      업비트에서 코인 정보를 보여주는 flow를 연구하고 클론 하는
-                      것을 목표로 함
-                    </span>
-                  </li>
+
                   <li className="content_li">
                     <span>•</span>
                     <span>
@@ -80,13 +78,6 @@ export default function MyProjectSection() {
                       REST API 응답 제한 분석 후 과거 데이터 탐색 범위 확장{' '}
                     </span>
                   </li>
-                  <li className="content_li">
-                    <span>•</span>
-                    <span>
-                      실시간/과거 데이터 분리 저장 및 병합 처리로 데이터 정합성
-                      유지{' '}
-                    </span>
-                  </li>
                 </ul>
               </div>
             </TextBlackHanSansContent>
@@ -103,7 +94,9 @@ export default function MyProjectSection() {
             개인 프로젝트 / 25.11.25 ~ 26.05.09 <br /> 1차 릴리즈
           </p>
           <p className="skill_text small_size">
-            typescript, next, tanstack query, zustand, naver map api, t map api
+            typescript, <br />
+            next(App Router), tanstack query, zustand, <br />
+            naver map api, <br /> t map api
           </p>
           <p className="my_info_box_inner">
             <a

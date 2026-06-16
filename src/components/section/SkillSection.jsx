@@ -12,11 +12,16 @@ export default function SkillSection() {
         <TextGothicA1BigTitle>
           <div className="text_box">
             <div className="skill_block">
-              <p className="skill_text">react, next, typescript</p>
+              <p className="skill_text">
+                React · TypeScript (strict mode) · Next.js (App Router)
+              </p>
               <p className="skill_text another_skill_text">
                 zustand, tanStack query, redux
               </p>
               <p className="skill_text">scss, tailwindcss</p>
+              <p className="skill_text another_skill_text">
+                ApexCharts, Chart js
+              </p>
             </div>
           </div>
         </TextGothicA1BigTitle>
