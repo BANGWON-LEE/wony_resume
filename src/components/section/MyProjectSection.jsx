@@ -78,6 +78,15 @@ export default function MyProjectSection() {
                       REST API 응답 제한 분석 후 과거 데이터 탐색 범위 확장{' '}
                     </span>
                   </li>
+                  <li className="content_li">
+                    <span>•</span>
+                    <span>
+                      WebSocket 연결과 차트 이벤트 리스너가 정상 해제되지 않아
+                      중복 요청과 이벤트 누수가 발생 가능 이슈 → 문제를 cleanup
+                      로직과 예외 처리 분리로 해결 → 실시간 차트 데이터 로딩
+                      안정성을 개선했습니다
+                    </span>
+                  </li>
                 </ul>
               </div>
             </TextBlackHanSansContent>
@@ -167,16 +176,17 @@ export default function MyProjectSection() {
                   <li className="content_li">
                     <span>•</span>{' '}
                     <span>
-                      경로 API N회 반복 호출 ⇒ 서버에 단일 요청 구조로 개선 ⇒
-                      CLS 0.095→0.000, Speed Index 8.3%↑, 네트워크 요청 수 6.5%↓
+                      경로 API N회 반복 호출 → 서버에 단일 요청 구조로 개선 →
+                      CLS 0.095⇒0.000, Speed Index 8.3%⇒개선, 네트워크 요청 수
+                      6.5%⇒감소
                     </span>
                   </li>
                   <li className="content_li">
                     <span>•</span>{' '}
                     <span>
-                      지도 객체 매 호출마다 재생성 ⇒ 초기 1회 생성 후 Ref로
-                      Marker/Polyline만 갱신하는 구조로 변경 ⇒ TBT
-                      494ms→395ms(−20%), Speed Index 5.69s→4.31s(−24%)
+                      지도 객체 매 호출마다 재생성 → 초기 1회 생성 후 Ref로
+                      Marker/Polyline만 갱신하는 구조로 변경 → TBT
+                      494ms⇒395ms(−20%), Speed Index 5.69s⇒4.31s(−24%)
                     </span>
                   </li>
                   <li className="content_li">

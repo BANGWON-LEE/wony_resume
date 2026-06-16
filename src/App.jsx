@@ -70,6 +70,7 @@ function App() {
             <TextBlackHanSansContent>
               React · Next.js 기반 웹 애플리케이션을 개발하며 성능 최적화(LCP
               −81%, FCP −92%)와 재사용 가능한 컴포넌트 설계에 강점을 가진
+              <br />
               프론트엔드 개발자입니다. 반응형 UI 구현과 RESTful API 연동 경험을
               바탕으로, 사용자 문제 해결을 우선하는 관점으로 제품에 기여합니다.
               {/* </p> */}

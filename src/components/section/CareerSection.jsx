@@ -96,12 +96,12 @@ export default function CareerSection() {
                       ApexChart vs Chart.js 벤치마크 수행 후 Chart.js
                       마이그레이션,{' '}
                       <strong>
-                        LCP 21.3초→4.0초(−81%), FCP 2.6초→0.2초(−92%) 개선
+                        LCP 21.3초⇒4.0초(−81%), FCP 2.6초⇒0.2초(−92%) 개선
                       </strong>
                       {/* 실시간 데이터 구현에 있어서 ChartJS가 ApexChart보다 초기
                         렌더링 속도 및 성능 향상에 이점이 있음을 파악, */}
-                      {/* <br /> LCP를 <strong>21.3초 → 4.0초</strong>, FCP를
-                        <strong>2.6초 → 0.2초</strong>로 대폭 개선. */}
+                      {/* <br /> LCP를 <strong>21.3초 ⇒ 4.0초</strong>, FCP를
+                        <strong>2.6초 ⇒ 0.2초</strong>로 대폭 개선. */}
                     </span>
                   </li>
 
