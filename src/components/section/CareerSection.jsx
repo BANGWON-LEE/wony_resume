@@ -111,10 +111,8 @@ export default function CareerSection() {
                   <li className="content_li">
                     <span>•</span>
                     <span>
-                      작업 생산성을 높이기 위해 Chart.js 기반 재사용 가능한 차트
-                      컴포넌트를 개발. 차트 타입과 API 데이터만 주입하면 사용할
-                      수 있도록 설계하고, 스타일 커스터마이징 기능을 추가하여
-                      다양한 시각화 요구를 지원. 이를 통해 데이터
+                      Chart.js 기반 재사용 차트 컴포넌트 설계 → 사내 공통 차트
+                      표준 제공
                       <br />
                       시각화 작업의 편의성에 기여
                     </span>
@@ -131,8 +129,8 @@ export default function CareerSection() {
                     <span>*</span>
                     <span>
                       <strong>
-                        실시간 시각화 대시보드 구축 → 기기 이상 감지하여 빠르게
-                        오류 대응하도록 함
+                        실시간 시각화 대시보드 구축 → 기기 상태 모니터링 시스템
+                        확립
                       </strong>
                     </span>
                   </li>

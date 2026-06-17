@@ -73,16 +73,9 @@ function App() {
               LCP를 21.3초→4.0초(−81%)로 단축했고, 사용자와의 인터뷰를 통해 업무
               기록 및 문서화 시간을 1시간에 5분으로 단축하였습니다
               <br />
-              Naver·T Map 등 지도 API로 위치 기반 서비스, 마이플랜을 설계·구축
-              최적화 경험이 있습니다. 기술 경험이나 공부 내용은 &nbsp;
-              <a
-                // className="click_text"
-                href="https://www.instagram.com/fe_developer_wony"
-                target="_blank"
-              >
-                sns(인스타그램)
-              </a>
-              에 기록합니다
+              Naver Map·T Map API 기반 위치 서비스 '마이플랜'을 설계·최적화하여
+              TBT 494ms→395ms(-20%), Speed Index 5.69s→4.31s(-24%)를
+              개선했습니다.
               {/* </p> */}
               {/* <p className="text_black_hansans_content_inner">
                 스마트 팩토리 프로젝트에서, 공장 기기의 데이터를 차트로 시각화
