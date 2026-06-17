@@ -94,15 +94,17 @@ export default function MyProjectSection() {
                     <span>•</span>{' '}
                     <span>
                       경로 API N회 반복 호출 ⇒ 서버에 단일 요청 구조로 개선 ⇒
-                      CLS 0.095→0.000, Speed Index <strong>8.3%↑</strong>, 네트워크 요청 수 <strong>6.5%↓</strong>
+                      CLS 0.095→0.000, Speed Index <strong>8.3%↑</strong>,
+                      네트워크 요청 수 <strong>6.5%↓</strong>
                     </span>
                   </li>
                   <li className="content_li">
                     <span>•</span>{' '}
                     <span>
                       지도 객체 매 호출마다 재생성 ⇒ 초기 1회 생성 후 Ref로
-                      Marker/Polyline만 갱신하는 구조로 변경 ⇒ TBT 
-                      <strong> 494ms→395ms(−20%)</strong>, Speed Index <strong> 5.69s→4.31s(−24%)</strong>
+                      Marker/Polyline만 갱신하는 구조로 변경 ⇒ TBT
+                      <strong> 494ms→395ms(−20%)</strong>, Speed Index{' '}
+                      <strong> 5.69s→4.31s(−24%)</strong>
                     </span>
                   </li>
                 </ul>
@@ -189,6 +191,15 @@ export default function MyProjectSection() {
                     <span>
                       실시간/과거 데이터 분리 저장 및 병합 처리로 데이터 정합성
                       유지{' '}
+                    </span>
+                  </li>
+                  <li className="content_li">
+                    <span>•</span>
+                    <span>
+                      WebSocket 연결과 차트 이벤트 리스너가 정상 해제되지 않아
+                      중복 요청과 이벤트 누수가 발생 가능 이슈 → 문제를 cleanup
+                      로직과 예외 처리 분리로 해결 → 실시간 차트 데이터 로딩
+                      안정성을 개선
                     </span>
                   </li>
                 </ul>
