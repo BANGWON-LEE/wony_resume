@@ -24,7 +24,7 @@ export default function InfoSection() {
               <span className="click_dir">click!</span>
             </a>
           </span>
-          <span className="my_info_box_inner">
+          {/* <span className="my_info_box_inner">
             instagram :
             <a
               className="click_text"
@@ -34,7 +34,7 @@ export default function InfoSection() {
               fe_devloper_wony
               <span className="click_dir">click!</span>
             </a>
-          </span>
+          </span> */}
           <span className="my_info_box_inner">
             Git hub :
             <a href="https://github.com/BANGWON-LEE" target="_blank">

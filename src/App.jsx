@@ -67,11 +67,14 @@ function App() {
         <div className="header_my_info resume_intro">
           <div className="header_inner_left">
             <TextBlackHanSansContent>
-               실시간 데이터를 지도·차트로 시각화하고 성능 병목을 수치로 개선해 온 프론트엔드 개발자입니다.  스마트 팩토리 실시간 관제 대시보드에서 <br/>LCP를 21.3초→4.0초(−81%)로 단축했고, 
-사용자와의 인터뷰를 통해 업무 기록 및 문서화 시간을 1시간에 5분으로 단축하였습니다
-<br/>
-Naver·T Map 등 지도 API로 위치 기반 서비스, 마이플랜을 설계·구축 최적화 경험이 있습니다. 
-기술 경험이나 공부 내용은 &nbsp;
+              실시간 데이터를 지도·차트로 시각화하고 성능 병목을 수치로 개선해
+              온 프론트엔드 개발자입니다. 스마트 팩토리 실시간 관제 대시보드에서{' '}
+              <br />
+              LCP를 21.3초→4.0초(−81%)로 단축했고, 사용자와의 인터뷰를 통해 업무
+              기록 및 문서화 시간을 1시간에 5분으로 단축하였습니다
+              <br />
+              Naver·T Map 등 지도 API로 위치 기반 서비스, 마이플랜을 설계·구축
+              최적화 경험이 있습니다. 기술 경험이나 공부 내용은 &nbsp;
               <a
                 // className="click_text"
                 href="https://www.instagram.com/fe_developer_wony"

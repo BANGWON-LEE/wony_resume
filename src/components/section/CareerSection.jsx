@@ -119,6 +119,13 @@ export default function CareerSection() {
                       시각화 작업의 편의성에 기여
                     </span>
                   </li>
+                  <li className="content_li">
+                    <span>•</span>
+                    <span>
+                      현장 사용자와 직접 인터뷰 → 기기상태 로그 기록 자동화 →
+                      업무시간 1시간 → 5분으로 단축
+                    </span>
+                  </li>
                   <br />
                   <li className="content_li">
                     <span>*</span>
@@ -190,6 +197,9 @@ export default function CareerSection() {
                 </div>
               </TextBlackHanSansContent>
             </div> */}
+          <br />
+          <br />
+          <br />
           <div className="text_box">
             <TextDoHyeonSmallTitle>
               <div className="project_header">
