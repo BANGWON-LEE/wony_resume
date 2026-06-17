@@ -22,6 +22,11 @@ export default function CareerSection() {
                 {/* <span>•</span> 2022.02 ~ 2024.11 <br /> */}
                 {/* (정규직) */}
               </li>
+              <li className="content_li">
+                프론트엔드
+                {/* <span>•</span> 2022.02 ~ 2024.11 <br /> */}
+                {/* (정규직) */}
+              </li>
               {/* <li className="content_li">
                   <span>•</span> 2024.12 ~ 2025.05 <br />
                   (계약직)
@@ -234,7 +239,12 @@ export default function CareerSection() {
           <TextBlackHanSansContent>
             <ul className="text_box_ul">
               <li className="content_li">
-                2025.09 ~ 현재 <br /> RPA 개발
+                2025.09 ~ 현재
+                {/* <span>•</span> 2022.02 ~ 2024.11 <br /> */}
+                {/* (정규직) */}
+              </li>
+              <li className="content_li">
+                RPA 개발
                 {/* <span>•</span> 2022.02 ~ 2024.11 <br /> */}
                 {/* (정규직) */}
               </li>
