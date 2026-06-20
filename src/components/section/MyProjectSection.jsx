@@ -95,7 +95,7 @@ export default function MyProjectSection() {
                     <span>
                       경로 API N회 반복 호출 ⇒ 서버에 단일 요청 구조로 개선 ⇒
                       CLS 0.095→0.000, Speed Index <strong>→ 8.3% 개선</strong>,
-                      네트워크 요청 수 <strong>→ 6.5% 감소</strong>
+                      네트워크 요청 수 감소
                     </span>
                   </li>
                   <li className="content_li">
