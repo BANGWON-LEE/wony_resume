@@ -50,7 +50,7 @@ export default function CareerSection() {
             <TextDoHyeonSmallTitle>
               <div className="project_header">
                 <h2 className="text_dohyeon_small_title_inner">
-                  스마트 팩토리
+                  스마트 팩토리(JR 에너지 솔루션)
                 </h2>
                 <TextBlackHanSansContent>
                   <p className="project_date">2023.11 ~ 2024.08 릴리즈</p>
@@ -87,7 +87,7 @@ export default function CareerSection() {
                   <li className="content_li">
                     <span>•</span>
                     <span>
-                      1~2초 주기 폴링 → MQTT 이벤트 기반으로 전환하여 불필요한
+                      1~2초 주기 폴링 ⇒ MQTT 이벤트 기반으로 전환하여 불필요한
                       요청을 없애고 필요한 응답만 받도록 개선
                     </span>
                   </li>
@@ -111,7 +111,7 @@ export default function CareerSection() {
                   <li className="content_li">
                     <span>•</span>
                     <span>
-                      Chart.js 기반 재사용 차트 컴포넌트 설계 → 사내 공통 차트
+                      Chart.js 기반 재사용 차트 컴포넌트 설계 ⇒ 사내 공통 차트
                       표준 제공
                       <br />
                       시각화 작업의 편의성에 기여
@@ -120,7 +120,7 @@ export default function CareerSection() {
                   <li className="content_li">
                     <span>•</span>
                     <span>
-                      현장 사용자와 직접 인터뷰 → 기기상태 로그 기록 자동화 →
+                      현장 사용자와 직접 인터뷰 ⇒ 기기상태 로그 기록 자동화 ⇒
                       업무시간 1시간 → 5분으로 단축
                     </span>
                   </li>
@@ -129,7 +129,7 @@ export default function CareerSection() {
                     <span>*</span>
                     <span>
                       <strong>
-                        실시간 시각화 대시보드 구축 → 기기 상태 모니터링 시스템
+                        실시간 시각화 대시보드 구축 ⇒ 기기 상태 모니터링 시스템
                         확립
                       </strong>
                     </span>
@@ -202,7 +202,7 @@ export default function CareerSection() {
             <TextDoHyeonSmallTitle>
               <div className="project_header">
                 <h2 className="text_dohyeon_small_title_inner">
-                  토토 프로젝트
+                  토토 프로젝트(케이풀스)
                 </h2>
                 <TextBlackHanSansContent>
                   <p className="project_date">2022.05 ~ 2022.12</p>
@@ -225,9 +225,9 @@ export default function CareerSection() {
                   <li className="content_li">
                     <span>•</span>
                     <span>
-                      React-Quill 이미지 업로드 시 인라인 스타일 미적용 이슈. →
+                      React-Quill 이미지 업로드 시 인라인 스타일 미적용 이슈. ⇒
                       렌더링 단계에서 CSS 선택자 기반 스타일 적용 방식으로 전환.
-                      → 이미지 스타일 정상 렌더링
+                      ⇒ 이미지 스타일 정상 렌더링
                     </span>
                   </li>
                 </ul>
