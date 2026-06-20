@@ -14,10 +14,11 @@ export default function MyProjectSection() {
             <h2 className="text_dohyeon_small_title_inner">myPlan</h2>
           </TextDoHyeonSmallTitle>
           <p className="skill_text small_size">
-            개인 프로젝트 / 25.11.25 ~ 26.05.09 1차 릴리즈
+            개인 프로젝트 <br /> 25.11.25 ~ 26.05.09 <br /> 1차 릴리즈
           </p>
           <p className="skill_text small_size">
-            typescript, next, tanstack query, zustand, naver map api, t map api
+            typescript, next, tanstack query, <br /> zustand, <br />
+            naver map api, <br /> t map api
           </p>
           <p className="my_info_box_inner">
             <a
@@ -122,7 +123,8 @@ export default function MyProjectSection() {
             </h2>
           </TextDoHyeonSmallTitle>
           <p className="skill_text small_size">
-            개인 프로젝트 / 25.07.21 ~ 25.11.20 완료
+            개인 프로젝트 <br /> 25.07.21 ~ 25.11.20 <br />
+            완료
           </p>
           <p className="skill_text small_size">
             javascript, react, chartJS, upbit api
