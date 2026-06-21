@@ -102,8 +102,8 @@ export default function MyProjectSection() {
                   <li className="content_li">
                     <span>•</span>{' '}
                     <span>
-                      지도 객체 매 호출마다 재생성 ⇒ 초기 1회 생성 후 Ref로
-                      Marker/Polyline만 갱신하는 구조로 변경 ⇒ TBT
+                      Lighthouse 기반 성능 측정 후 지도 객체 재생성 병목을
+                      분석하여 Ref 기반 관리 구조로 개선 ⇒ TBT
                       <strong> 494ms→395ms(−20%)</strong>, Speed Index{' '}
                       <strong> 5.69s→4.31s(−24%)</strong>
                     </span>
@@ -155,8 +155,8 @@ export default function MyProjectSection() {
                   <li className="content_li">
                     <span>•</span>
                     <span>
-                      chart js를 사용해 upbit의 socket으로 받아오는 데이터
-                      시각화
+                      WebSocket 기반 실시간 시세 데이터를 수신하여 Chart.js
+                      캔들스틱 차트로 시각화
                     </span>
                   </li>
 
@@ -198,10 +198,8 @@ export default function MyProjectSection() {
                   <li className="content_li">
                     <span>•</span>
                     <span>
-                      WebSocket 연결과 차트 이벤트 리스너가 정상 해제되지 않아
-                      중복 요청과 이벤트 누수가 발생 가능 이슈 ⇒ 문제를 cleanup
-                      로직과 예외 처리 분리로 해결 ⇒ 실시간 차트 데이터 로딩
-                      안정성을 개선
+                      • WebSocket 연결 및 차트 이벤트 리스너의 cleanup 로직을
+                      개선하여 이벤트 누수 및 중복 데이터 수신 문제 해결
                     </span>
                   </li>
                 </ul>

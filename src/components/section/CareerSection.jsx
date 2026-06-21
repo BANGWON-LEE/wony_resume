@@ -79,6 +79,14 @@ export default function CareerSection() {
                   <li className="content_li">
                     <span>•</span>
                     <span>
+                      Nextron(Electron + Next.js) 기반 스마트팩토리 관제 시스템
+                      개발
+                    </span>
+                  </li>
+                  <br />
+                  <li className="content_li">
+                    <span>•</span>
+                    <span>
                       프로젝트의 초기 세팅 및 컴포넌트 구성 및 UI 개발
                     </span>
                   </li>
