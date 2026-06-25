@@ -57,8 +57,8 @@ function App() {
           <Analytics />
           <TextGothicA1BigTitle>
             <h1 className="text_gothic_a1_big_title_inner">
-              실시간 데이터를 시각화하고 성능을 개선하는 프론트엔드 개발자,
-              이방원
+              데이터 시각화와 제품 설계를 통해 사용자 경험을 개선하는 프론트엔드
+              개발자, 이방원
             </h1>
             {/* <h1 className="text_gothic_a1_big_title_inner">
               프론트엔드 개발자 이방원입니다.

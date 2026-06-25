@@ -20,6 +20,7 @@ export default function SkillSection() {
               <p className="skill_text another_skill_text">
                 Firebase, Chart.js, Map api(Naver, Kakao, T map)
               </p>
+              <p className="skill_text">Codex</p>
             </div>
           </div>
         </TextGothicA1BigTitle>

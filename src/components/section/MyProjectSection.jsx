@@ -59,14 +59,28 @@ export default function MyProjectSection() {
           <div className="text_box">
             <TextBlackHanSansContent>
               <div className="text_box">
+                <TextBlackHanSansContent>
+                  <p>
+                    마이플랜은 현재 위치 기반 루트 추천 서비스 (Naver Map + T
+                    Map API 연동, 병원/약국 등 목적지 1초 내 경로 제공)
+                  </p>
+                </TextBlackHanSansContent>
+                <TextBlackHanSansContent>
+                  <p>
+                    <strong>
+                      Codex를 활용해 성능 병목을 분석하고 개선안을 검증하며
+                      Lighthouse 성능 지표를 지속적으로 개선
+                    </strong>
+                  </p>
+                </TextBlackHanSansContent>
                 <ul className="text_box_ul">
-                  <li className="content_li">
+                  {/* <li className="content_li">
                     <span>•</span>
                     <span>
                       마이플랜은 현재 위치 기반 루트 추천 서비스 (Naver Map + T
                       Map API 연동, 병원/약국 등 목적지 1초 내 경로 제공)
                     </span>
-                  </li>
+                  </li> */}
                   <li className="content_li">
                     <span>•</span>{' '}
                     <span>
