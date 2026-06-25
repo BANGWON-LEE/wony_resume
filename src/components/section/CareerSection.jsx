@@ -70,18 +70,16 @@ export default function CareerSection() {
                       </span>
                     </li> */}
                   <li className="content_li">
-                    - 사용자가 한 페이지에서 3종류 이상의 기기 상태 데이터를
-                    각각 차트로 보길 원함
-                    <br />- 기존에는 페이지에 1개의 차트, 약 700개의 데이터만
-                    시각화 됨
+                    - 단일 차트로 제한되던 기기 상태 화면을 2개 이상의 부품
+                    데이터를 동시에 확인할 수 있는 다중 차트 대시보드로 확장
                   </li>
                   <br />
-                  <li className="content_li">
+                  {/* <li className="content_li">
                     <span>•</span>
                     <span>
                       프로젝트의 초기 세팅 및 컴포넌트 구성 및 UI 개발
                     </span>
-                  </li>
+                  </li> */}
                   <br />
 
                   <li className="content_li">
@@ -137,7 +135,8 @@ export default function CareerSection() {
                 </ul>
 
                 <p className="skill_text">
-                  javascript, nextron, tailwindcss, recoil, chart.js, ApexCharts
+                  javascript, nextron, tailwind CSS, recoil, chart.js,
+                  ApexCharts
                 </p>
               </div>
             </TextBlackHanSansContent>

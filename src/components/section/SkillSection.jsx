@@ -16,10 +16,11 @@ export default function SkillSection() {
               <p className="skill_text another_skill_text">
                 Redux, Zustand, TanStack Query
               </p>
-              <p className="skill_text">Scss, Tailwindcss</p>
+              <p className="skill_text">SCSS, Tailwind CSS</p>
               <p className="skill_text another_skill_text">
                 Firebase, Chart.js, Map api(Naver, Kakao, T map)
-              </p>
+              </p>{' '}
+              <p className="skill_text">codex</p>
             </div>
           </div>
         </TextGothicA1BigTitle>

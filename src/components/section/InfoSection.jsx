@@ -36,7 +36,7 @@ export default function InfoSection() {
             </a>
           </span> */}
           <span className="my_info_box_inner">
-            Git hub :
+            Github :
             <a href="https://github.com/BANGWON-LEE" target="_blank">
               BANGWON-LEE
               <span className="click_dir">click!</span>
