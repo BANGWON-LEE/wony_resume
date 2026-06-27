@@ -108,6 +108,14 @@ export default function MyProjectSection() {
                       <strong> 5.69s→4.31s(−24%)</strong>
                     </span>
                   </li>
+                  <li className="content_li">
+                    <span>•</span>{' '}
+                    <span>
+                      Tmap 경로 API 중복 호출 가능성 → 출발지·목적지 기준 경로
+                      응답 캐싱 적용 → `/api/walking` 호출 1회 수준 안정화 및
+                      API 과금 리스크 감소
+                    </span>
+                  </li>
                 </ul>
               </div>
             </TextBlackHanSansContent>
