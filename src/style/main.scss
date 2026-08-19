@@ -78,21 +78,10 @@ li {
   border-bottom: 2px solid #1e2229;
 }
 
-.header_my_info,
-.resume_intro {
-  display: block;
-  padding: 1.4rem 0 1.6rem;
-  border-bottom: 1px solid #d9dee7;
-}
-
-.header_inner_left {
-  max-width: 1040px;
-}
-
 .resume_main {
   display: grid;
-  grid-template-columns: minmax(0, 1.12fr) minmax(360px, 0.88fr);
-  gap: clamp(2rem, 4vw, 4.5rem);
+  grid-template-columns: 1fr;
+  gap: clamp(1.6rem, 3vw, 3rem);
   padding-top: 1.8rem;
   align-items: start;
 }
@@ -113,6 +102,11 @@ li {
 
 .resume_column {
   min-width: 0;
+}
+
+.resume_column_primary,
+.resume_column_secondary {
+  width: 100%;
 }
 
 .skill_box,
@@ -183,11 +177,6 @@ li {
     padding: 2.25rem clamp(1rem, 3vw, 2rem);
   }
 
-  .resume_main {
-    grid-template-columns: 1fr;
-    gap: 2.25rem;
-  }
-
   .info_container {
     grid-template-columns: 1fr;
     gap: 1.1rem;
@@ -208,11 +197,6 @@ li {
 
   .resume_header {
     padding-bottom: 1rem;
-  }
-
-  .header_my_info,
-  .resume_intro {
-    padding: 1rem 0 1.15rem;
   }
 
   .resume_main {
