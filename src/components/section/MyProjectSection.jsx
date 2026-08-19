@@ -25,13 +25,10 @@ export default function MyProjectSection() {
         <div className="content_block_content">
           <article className="project_card">
             <div className="project_body">
-	              <TextBlackHanSansContent>
-	                <div className="text_box">
-	                  <p>
-	                    주식 시장 대시보드와 차트 UI를 중심으로, 멀티브로커
-	                    포트폴리오 MVP까지 확장하기 위해 설계한 개인 프로젝트입니다.
-	                  </p>
-	                  <ul className="text_box_ul">
+              <TextBlackHanSansContent>
+                <div className="text_box">
+                  <p>차트 UI 중심의 주식 시장 대시보드, 개인 프로젝트입니다.</p>
+                  <ul className="text_box_ul">
                     <li className="content_li">
                       <span>•</span>
                       <span>
@@ -44,16 +41,17 @@ export default function MyProjectSection() {
                       <span>
                         이전에 만든 공용 차트 컴포넌트 구조를 my stock chart에
                         적용해 line, bar, candlestick, combo 차트를 공통 API로
-                        렌더링하고, row/map 입력 데이터를 공통 차트 모델로 정규화
+                        렌더링하고, row/map 입력 데이터를 공통 차트 모델로
+                        정규화
                       </span>
                     </li>
                     <li className="content_li">
                       <span>•</span>
-	                      <span>
-	                        Upbit chart에서 작업했던 휠 이벤트 기반 차트 이동 경험을
-	                        적용해, 캔들 차트의 표시 구간을 상태로 관리하고
-	                        휠 동작에 따라 차트 pan UX 구현
-	                      </span>
+                      <span>
+                        Upbit chart에서 작업했던 휠 이벤트 기반 차트 이동 경험을
+                        적용해, 캔들 차트의 표시 구간을 상태로 관리하고 휠
+                        동작에 따라 차트 pan UX 구현
+                      </span>
                     </li>
                     <li className="content_li">
                       <span>•</span>
@@ -74,22 +72,22 @@ export default function MyProjectSection() {
               </TextBlackHanSansContent>
             </div>
             <div
-	              className="project_media_list"
-	              aria-label="my stock chart 프로젝트 이미지 영역"
-	            >
-	              <div className="project_media">
-	                <img
-	                  src="/assets/my%20stock%20chart/my_stock_chart_img.png"
-	                  alt="my stock chart 대시보드 화면"
-	                />
-	              </div>
-	              <div className="project_media">
-	                <img
-	                  src="/assets/my%20stock%20chart/my_stock_chart_chart-move.gif"
-	                  alt="my stock chart 휠 동작 차트 이동 화면"
-	                />
-	              </div>
-	            </div>
+              className="project_media_list"
+              aria-label="my stock chart 프로젝트 이미지 영역"
+            >
+              <div className="project_media">
+                <img
+                  src="/assets/my%20stock%20chart/my_stock_chart_img.png"
+                  alt="my stock chart 대시보드 화면"
+                />
+              </div>
+              <div className="project_media">
+                <img
+                  src="/assets/my%20stock%20chart/my_stock_chart_chart-move.gif"
+                  alt="my stock chart 휠 동작 차트 이동 화면"
+                />
+              </div>
+            </div>
           </article>
         </div>
       </div>
@@ -143,14 +141,14 @@ export default function MyProjectSection() {
         <div className="content_block_content">
           <article className="project_card">
             <div className="project_body">
-	              <TextBlackHanSansContent>
-	                <div className="text_box">
-	                  <p>
-	                    목적 기반 자동 루트 추천 서비스로, 현재 위치를 기준으로
-	                    병원, 약국, 공중화장실, 편의점 등 사용자가 선택한 목적에
-	                    맞는 근처 장소와 이동 경로를 안내합니다.
-	                  </p>
-	                  <ul className="text_box_ul">
+              <TextBlackHanSansContent>
+                <div className="text_box">
+                  <p>
+                    목적 기반 자동 루트 추천 서비스로, 현재 위치를 기준으로
+                    병원, 약국, 공중화장실, 편의점 등 사용자가 선택한 목적에
+                    맞는 근처 장소와 이동 경로를 안내합니다.
+                  </p>
+                  <ul className="text_box_ul">
                     <li className="content_li">
                       <span>•</span>
                       <span>
@@ -212,22 +210,34 @@ export default function MyProjectSection() {
               </TextBlackHanSansContent>
             </div>
             <div
-	              className="project_media_list project_media_list_tall"
-	              aria-label="myPlan 프로젝트 이미지 영역"
-	            >
-	              <div className="project_media">
-	                <img src="/assets/my%20plan/myplan0.gif" alt="myPlan 경로 추천 화면" />
-	              </div>
-	              <div className="project_media">
-	                <img src="/assets/my%20plan/myplan1.png" alt="myPlan 목적 선택 화면" />
-	              </div>
-	              <div className="project_media">
-	                <img src="/assets/my%20plan/myplan2.png" alt="myPlan 지도 화면" />
-	              </div>
-	              <div className="project_media">
-	                <img src="/assets/my%20plan/myplan3.png" alt="myPlan 경로 상세 화면" />
-	              </div>
-	            </div>
+              className="project_media_list project_media_list_tall"
+              aria-label="myPlan 프로젝트 이미지 영역"
+            >
+              <div className="project_media">
+                <img
+                  src="/assets/my%20plan/myplan0.gif"
+                  alt="myPlan 경로 추천 화면"
+                />
+              </div>
+              <div className="project_media">
+                <img
+                  src="/assets/my%20plan/myplan1.png"
+                  alt="myPlan 목적 선택 화면"
+                />
+              </div>
+              <div className="project_media">
+                <img
+                  src="/assets/my%20plan/myplan2.png"
+                  alt="myPlan 지도 화면"
+                />
+              </div>
+              <div className="project_media">
+                <img
+                  src="/assets/my%20plan/myplan3.png"
+                  alt="myPlan 경로 상세 화면"
+                />
+              </div>
+            </div>
           </article>
         </div>
       </div>
@@ -266,13 +276,13 @@ export default function MyProjectSection() {
         <div className="content_block_content">
           <article className="project_card">
             <div className="project_body">
-	              <TextBlackHanSansContent>
-	                <div className="text_box">
-	                  <p>
-	                    업비트 실시간 소켓 데이터를 받아 Chart.js와 Financial Chart
-	                    플러그인으로 캔들스틱 차트를 시각화한 클론 프로젝트입니다.
-	                  </p>
-	                  <ul className="text_box_ul">
+              <TextBlackHanSansContent>
+                <div className="text_box">
+                  <p>
+                    업비트 실시간 소켓 데이터를 받아 Chart.js와 Financial Chart
+                    플러그인으로 캔들스틱 차트를 시각화한 클론 프로젝트입니다.
+                  </p>
+                  <ul className="text_box_ul">
                     <li className="content_li">
                       <span>•</span>
                       <span>
@@ -330,7 +340,7 @@ export default function MyProjectSection() {
                 </div>
               </TextBlackHanSansContent>
             </div>
-	          </article>
+          </article>
         </div>
       </div>
     </section>
