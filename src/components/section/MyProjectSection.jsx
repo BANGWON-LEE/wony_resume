@@ -21,6 +21,40 @@ export default function MyProjectSection() {
             chartjs-chart-financial, zustand, <br />
             tailwind CSS, fastify, websocket, KIS api
           </p>
+          <p className="my_info_box_inner">
+            <a
+              className="click_text"
+              // href="https://github.com/BANGWON-LEE/react-calendar-w-design"
+              href="https://github.com/BANGWON-LEE/wony_stock_chart"
+              target="_blank"
+            >
+              github
+            </a>
+            <a
+              href="https://github.com/BANGWON-LEE/wony_stock_chart"
+              target="_blank"
+              className="click_dir"
+            >
+              click!
+            </a>
+          </p>
+          <p className="my_info_box_inner">
+            <a
+              className="click_text"
+              // href="https://github.com/BANGWON-LEE/react-calendar-w-design"
+              href="https://wony-stock-chart-frontend-ten.vercel.app"
+              target="_blank"
+            >
+              link
+            </a>
+            <a
+              href="https://wony-stock-chart-frontend-ten.vercel.app"
+              target="_blank"
+              className="click_dir"
+            >
+              click!
+            </a>
+          </p>
         </div>
         <div className="content_block_content">
           <article className="project_card">
